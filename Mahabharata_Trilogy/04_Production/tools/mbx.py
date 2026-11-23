@@ -278,16 +278,31 @@ def cmd_locations():
 
 
 # ---------------------------------------------------------------- audio
+def mmss(x):
+    m = re.match(r'^(\d+):(\d\d)$', (x or '').strip())
+    return int(m.group(1)) * 60 + int(m.group(2)) if m else 0
+
+
+def audio_totals(cues, sfx, vox):
+    t = defaultdict(lambda: [0, 0])
+    for c in cues.values():
+        key = ('THEME-' if c['id'].startswith('THM_') else '') + c['tool']
+        t[key][0] += 1
+        t[key][1] += mmss(c['dur'])
+    loops = sum(1 for x in sfx.values() if 'LOOP' in x.get('len', ''))
+    return t, len(sfx), loops, len(vox)
+
+
 def load_audio():
     cues, sfx, vox = OrderedDict(), OrderedDict(), OrderedDict()
     for c in read_tables(AUDIO_MD):
         k = c[0]
         if k.startswith('SFX_') and len(c) >= 4:
-            sfx[k] = dict(id=k, name=c[1], tool=c[2], prompt=c[3])
+            sfx[k] = dict(id=k, name=c[1], tool=c[2], prompt=c[3], len=(c[4] if len(c) > 4 else ''))
         elif re.match(r'^VOX_', k) and len(c) >= 4:
             vox[k] = dict(id=k, who=c[1], design=c[2], settings=c[3])
         elif re.match(r'^(MUS|THM)_', k) and len(c) >= 4:
-            cues[k] = dict(id=k, name=c[1], tool=c[2], prompt=c[3])
+            cues[k] = dict(id=k, name=c[1], tool=c[2], prompt=c[3], dur=(c[4] if len(c) > 4 else ''))
     return cues, sfx, vox
 
 
@@ -444,8 +459,10 @@ def cmd_compile(check_only=False):
                     speak = ''
                     if ln and ln['who'] not in ('VO', 'SFX') and ln['mod'].strip().upper() not in ('V.O.', 'VO', 'O.S.'):
                         speak = f" The character [{ln['who']}] speaks in Hindi, lips clearly visible: \"{ln['text']}\""
+                    cam = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['CAMERA'])
+                    act = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['ACTION'])
                     prompt = (f"{style_master} LOCATION: {loc_dna} CAST: {' | '.join(dna_parts) if dna_parts else 'no characters'}. "
-                              f"SHOT: {sh['CAMERA']}. ACTION: {sh['ACTION']}.{speak} AUDIO: {sh['SOUND']}.").strip()
+                              f"SHOT: {cam}. ACTION: {act}.{speak} AUDIO: {sh['SOUND']}.").strip()
                     prompts_md.append(f"**{clip_id}** · {secs}s · mode `{sh['MODE']}` · refs: {', '.join(refs) or '—'}"
                                       + (f" · line {lid}" if lid else ''))
                     prompts_md.append('```text\n' + prompt + f"\nAVOID: {neg_master}\n```")
@@ -501,6 +518,16 @@ def cmd_compile(check_only=False):
             for r in index:
                 if r[0] == ch['id']:
                     out.append(f"| {r[1]} | {r[2]} | {r[3]//60}:{r[3]%60:02d} | {r[4]} | {r[5]} | {r[6]} | {r[7]} |")
+        t, nsfx, nloop, nvox = audio_totals(cues, sfx, vox)
+        out.append('\n## Audio totals (from 03_Audio_Bible.md + scripts)\n')
+        out.append('| Item | Count | Minutes |')
+        out.append('|---|---|---|')
+        for key in sorted(t):
+            out.append(f"| {key} | {t[key][0]} | {t[key][1]//60}:{t[key][1]%60:02d} |")
+        out.append(f"| ElevenLabs SFX defined (of which seamless loops) | {nsfx} ({nloop}) | — |")
+        out.append(f"| Voices defined (VOX) | {nvox} | — |")
+        vo_chars = sum(len(r[6]) for r in vo_all)
+        out.append(f"| Dialogue + narration lines | {len(vo_all)} | {vo_chars:,} characters for TTS/STS |")
         undefined = sorted(k for k in sfx_use if k not in sfx)
         if undefined:
             problems += [f"SFX used but not defined in 03_Audio_Bible.md: {k}" for k in undefined]
