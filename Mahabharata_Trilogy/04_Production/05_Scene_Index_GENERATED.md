@@ -3,7 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
-| भाग २ — वन और शंख | 2 | 36 min 15 s | 354 | 5,361 |
+| भाग २ — वन और शंख | 3 | 56 min 15 s | 547 | 7,093 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -176,6 +176,21 @@
 | P2C02S07 | EXT. HIMĀLAYA — RECOGNITION — PĀŚUPATA | 2:30 | LOC_HIMALAYA | SHV_B UMA_A ARJ_E | 3.40.52–3.41.20 (Pāśupata 3.41.7–15) | "Tum prāchīn ṛṣi ho." |
 | P2C02S08 | EXT. HIMĀLAYAN PEAKS — THE WORLD-GUARDIANS | 1:45 | LOC_HIMALAYA | YAM_A VRN_A KUB_A IND_B ARJ_E MTL_A | 3.42–3.43 | (chapter end) Aasmaan se Mātali ka rath utarta hai. |
 
+## P2C03 · अमरावती और हनुमान — भाग २, अध्याय ३ (≈44:00 – 68:00) — 20:00 · 193 clips (132 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C03S01 | EXT. SKY / AMARĀVATĪ — THE ASCENT | 1:45 | LOC_AMARAVATI | ARJ_E MTL_A IND_B X_APSARA | 3.43–3.44 (half of Indra's seat — Arjuna's own account 3.164.52) |  |
+| P2C03S02 | INT. AMARĀVATĪ — WEAPONS AND MUSIC | 2:15 | LOC_AMARAVATI | ARJ_F IND_B CTS_A | 3.44–3.45 (Citrasena teaches dance, song and instruments 3.45.6–8) | Yahi seekh ek din Bṛhannaḍā ki dhaal banegi. |
+| P2C03S03 | INT. AMARĀVATĪ — THE APSARASES | 1:15 | LOC_AMARAVATI | URV_A X_APSARA ARJ_F | 3.44.29–30; five years 3.171.9 (NOT CE: Urvaśī's advances and curse, App. I.6) |  |
+| P2C03S04 | EXT. KĀMYAKA — "मुझसे अभागा कौन?" — NALA (SHADOW PLAY) | 2:30 | LOC_KAMYAKA | YUD_E BRH_A BHM_E DRP_D | 3.49–3.78 (Bṛhadaśva tells of Nala) | Ek raja jo paason mein sab haara — aur phir laut aaya. |
+| P2C03S05 | MONTAGE — TĪRTHAYĀTRĀ WITH LOMAŚA | 2:00 | LOC_TIRTHA_FORDS LOC_HIMALAYA LOC_SEA_SHORE | LMS_A YUD_E BHM_E NAK_E SAH_E DRP_D DHM_A | 3.80–3.153 |  |
+| P2C03S06 | EXT. GANDHAMĀDANA PASS — STORM | 2:15 | LOC_GANDHAMADANA | DRP_D BHM_E YUD_E NAK_E SAH_E GHT_A X_RAKSHASA | 3.144–3.145 (Draupadī falls 3.144.2–4) | Pita ek baar yaad karta hai — aur aasmaan mein ek parchhaai. |
+| P2C03S07 | EXT. MOUNTAIN MEADOW — THE LOTUS | 1:00 | LOC_GANDHAMADANA | DRP_D BHM_E | 3.146.1–15 (saugandhika 3.146.8) |  |
+| P2C03S08 | EXT. BANANA GROVE — THE TAIL — ELEVATION #2 | 3:15 | LOC_GANDHAMADANA | BHM_E HAN_A | 3.146.59–68 (Hanumān's look); 3.147.14–22 (the tail) | Duniya ka sabse balwaan purush ek boodhe bandar ki poonch nahi hila paata. |
+| P2C03S09 | EXT. BANANA GROVE — THE FORM | 1:45 | LOC_GANDHAMADANA | HAN_A BHM_E | 3.149–3.150 (promise 3.150.15) | (chapter promise) Yeh vachan Part III mein Arjuna ke rath ke jalne tak nibhaaya jayega. |
+| P2C03S10 | EXT. KUBERA'S LAKE / FOREST — LOTUSES AND A FALSE BRAHMIN | 2:00 | LOC_GANDHAMADANA LOC_FOREST_NIGHT | BHM_E JTS_A YUD_E NAK_E SAH_E DRP_D | 3.151–3.152; 3.154 | (chapter end) Jo brāhmaṇ unke saath reh raha tha, woh rākṣas nikla. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -186,4 +201,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 129 | — |
-| Dialogue + narration lines | 487 | 39,041 characters for TTS/STS |
+| Dialogue + narration lines | 513 | 40,773 characters for TTS/STS |
