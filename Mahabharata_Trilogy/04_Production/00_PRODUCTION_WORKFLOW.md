@@ -124,8 +124,8 @@ MBH/
 ---
 ## 9. ENVIRONMENT & ISOLATION (aapki shart: "is project ko pichhle sessions se mix mat karna")
 * Saara kaam **sirf** `Mahabharata_Trilogy/` folder mein, **sirf** branch `ccr-43a322cd-rcdqbs` par. Repo ki koi aur file/folder chhua nahi gaya.
-* Is session ka cloud environment is project ke liye alag banaya gaya tha (BORI e-text ke hosts ke saath); aapke purane environments ("Akriti", "Default") aur unke sessions se iska koi lena-dena nahi.
-* BORI lookup tool: `04_Production/tools/` ke saath `mbh.py` — CE text environment setup script se download hota hai (taaki agla session bhi citations verify kar sake).
+* Cloud environment ka naam ab **"Mahabharata-Trilogy"** hai — personal, sirf is project ke liye; BORI e-text ke hosts allowed; iski setup script har naye session mein CE text `/opt/bori_ce` mein download karti hai. Aapke purane environments ("Akriti", "Default") aur unke sessions se iska koi lena-dena nahi.
+* BORI lookup tool: `04_Production/tools/mbh.py` (`python3 tools/mbh.py v 1.94.88`, `g REGEX`, `star 2 544`) — text © BORI repo mein nahi rakha; setup script se aata hai.
 
 ## 10. AAPSE CHAHIYE (pending)
 1. **12 bane hue characters** ki images + naam → main unhe LOOK IDs se map karke DNA text unke hisaab se lock karunga.
