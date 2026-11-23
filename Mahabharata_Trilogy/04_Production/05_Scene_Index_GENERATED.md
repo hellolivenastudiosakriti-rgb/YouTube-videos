@@ -2,7 +2,7 @@
 
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
-| भाग १ — प्रतिज्ञा और सभा | 3 | 70 min 35 s | 700 | 12,426 |
+| भाग १ — प्रतिज्ञा और सभा | 4 | 94 min 40 s | 936 | 16,788 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -66,6 +66,27 @@
 | P1C03S14 | EXT. TOURNAMENT ARENA — AFTERNOON — THE DISPLAY | 2:45 | LOC_RANGABHUMI | DHR_B GAN_B BHS_C KRP_A VID_B KUN_C DRO_C ASW_A BHM_B DUR_B ARJ_B YUD_B NAK_B SAH_B X_CITIZEN X_MUSICIAN | 1.124–1.125 (mace display stopped by Aśvatthāman 1.125.3–5; Droṇa's introduction 1.125.7; golden armour 1.125.9; iron boar and cow-horn 1.125.23–24) | Ek khel jo asli yudh banne wala tha. |
 | P1C03S15 | EXT. ARENA — THE ENTRY | 1:30 | LOC_RANGABHUMI | KRN_B DRO_C KRP_A ARJ_B DUR_B KUN_C X_CITIZEN | 1.126.1–9 | (chapter end) Bheed khud raasta deti hai. Ek parvat chal kar aata hai. Aur ek bhai apne anjaan bhai ko lalkaarta hai. |
 
+## P1C04 · रंगभूमि और लाक्षागृह — भाग १, अध्याय ४ (≈70:00 – 98:00) — 24:05 · 236 clips (137 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P1C04S01 | EXT. ARENA — THE CHALLENGE | 2:00 | LOC_RANGABHUMI | KRN_B ARJ_B DUR_B DUH_B DRO_C X_CITIZEN | 1.126.10–22 | Bheed jaise kisi yantra se uchhal padti hai. Ek ka chehra khushi se, doosre ka lajja aur krodh se bhar jaata hai. |
+| P1C04S02 | EXT. ARENA — THE SKY CHOOSES SIDES | 1:00 | LOC_RANGABHUMI | KRN_B ARJ_B DRO_C KRP_A BHS_C DUR_B | 1.126.23–26 |  |
+| P1C04S03 | EXT. WOMEN'S GALLERY — KUNTĪ | 1:00 | LOC_RANGABHUMI | KUN_C VID_B KRN_B ARJ_B | 1.126.27–29 (Vidura does NOT learn the secret) | Ek maa jo jaanti hai — aur kuch nahi kar sakti. |
+| P1C04S04 | EXT. ARENA — THE QUESTION | 1:30 | LOC_RANGABHUMI | KRP_A KRN_B DUR_B YUD_B | 1.126.30–35 | "Apni maa, apna pita, apna kul batao" — aur jiska jawab saamne khada hai, woh chup. |
+| P1C04S05 | EXT. ARENA — CORONATION OF AṄGA | 1:15 | LOC_RANGABHUMI | KRN_B DUR_B X_BRAHMIN X_MUSICIAN | 1.126.36–39 |  |
+| P1C04S06 | EXT. ARENA GATE — THE FATHER | 1:00 | LOC_RANGABHUMI | ADH_B KRN_B X_CITIZEN | 1.127.1–4 | Naya raja dhanush gira deta hai — ek boodhe saarathi ke pairon mein. |
+| P1C04S07 | EXT. ARENA — THE TAUNT | 0:50 | LOC_RANGABHUMI | BHM_B KRN_B | 1.127.5–8 |  |
+| P1C04S08 | EXT. ARENA — DURYODHANA'S ROAR | 1:30 | LOC_RANGABHUMI | DUR_B BHM_B KRN_B DRO_C KRP_A X_CITIZEN | 1.127.9–18 |  |
+| P1C04S09 | EXT. ARENA — TORCHES | 1:15 | LOC_RANGABHUMI | DUR_B KRN_B KUN_C YUD_B X_CITIZEN | 1.127.19–24 | Ek maa ki gupt muskaan — aur ek bhai jo jaanta hai ki usne kya dekha. |
+| P1C04S10 | EXT./INT. KĀMPILYA — GURUDAKṢIṆĀ | 2:00 | LOC_KAMPILYA | DRO_C DRU_B ARJ_B BHM_B DUR_B | 1.128.1–18 (all pupils storm the city 1.128.3–5; won in war by Pārtha 1.128.18; half kingdom 1.128.12–14) | Guru ka badla poora hota hai — aur ek naye badle ka beej padta hai. |
+| P1C04S11 | INT. DHṚTARĀṢṬRA'S CHAMBER / A DARK ROOM — THE PLOT | 2:00 | LOC_HASTINAPURA_CHAMBERS | DUR_C DHR_B PUR_A KRN_B SHK_B | 1.129.1–5; 1.130.1–4; 1.131; 1.132.2–10 | Ek pita jo "na" kehna chahta hai — aur ek mantri ko diya gaya daahina haath. |
+| P1C04S12 | EXT. CITY BOUNDARY — MORNING — VIDURA'S RIDDLE | 1:45 | LOC_HASTINAPURA_CITY | VID_B YUD_B KUN_C BHM_B ARJ_B NAK_B SAH_B X_CITIZEN | 1.133.18–30 | Sabke saamne, ek aisi bhasha mein chetavni jo sirf ek samjhe. |
+| P1C04S13 | INT. "ŚIVA'S HOUSE", VĀRAṆĀVATA — THE SMELL | 2:00 | LOC_VARANAVATA | YUD_B BHM_B PUR_A MIN2_A ARJ_B NAK_B SAH_B KUN_C | 1.134.12–30; 1.135.1–17 (miner's password 1.135.6; trapdoor 1.135.16–17) | Diwar se aati ghee aur lākh ki gandh — aur raat mein ek mitti se sana ajnabi. |
+| P1C04S14 | INT. MANSION — STORM NIGHT — SIX SLEEPERS | 2:15 | LOC_VARANAVATA | YUD_B BHM_B ARJ_B NAK_B SAH_B KUN_C NSD_A PUR_A X_NISHADA X_BRAHMIN | 1.136.1–14 | Yudhiṣṭhira yahan sant nahi — ek jeevit rehne wala hai. "Chhah prāṇī." |
+| P1C04S15 | EXT. FOREST BEYOND THE MOAT — NIGHT — ELEVATION #4 "THE RUN" | 1:15 | LOC_FOREST_NIGHT | BHM_B KUN_C YUD_B ARJ_B NAK_B SAH_B | 1.136.15–19 |  |
+| P1C04S16 | EXT. FOREST CLEARING / INT. HASTINAPURA — DAWN | 1:30 | LOC_FOREST_NIGHT LOC_HASTINAPURA_COURT | YUD_B BHM_B KUN_C DHR_B VID_B DUR_C X_COURTIER | 1.137.1–2, 15–18 | (chapter end) Shahar sach maan leta hai. Vidura nahi. Aur jungle mein koi jaag raha hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -76,4 +97,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 171 | 12,426 characters for TTS/STS |
+| Dialogue + narration lines | 221 | 16,788 characters for TTS/STS |
