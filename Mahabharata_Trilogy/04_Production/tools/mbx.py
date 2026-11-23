@@ -309,8 +309,9 @@ def load_audio():
 # ---------------------------------------------------------------- shooting scripts
 SCENE_RE = re.compile(r'^##\s+(P[123]C\d\dS\d\d)\s*·\s*(.+?)\s*·\s*⏱\s*(\d+):(\d\d)\s*$')
 CH_RE = re.compile(r'^#\s+(P[123]C\d\d)\s*·\s*(.+)$')
-LINE_RE = re.compile(r'^-\s*(L\d{2,3})\s*·\s*([A-Z0-9_]+|VO|SFX)\s*(?:\(([^)]*)\))?\s*·\s*(VOX_[A-Z0-9_]+|—)\s*·\s*(\[[^\]]*\])?\s*(.*)$')
-META_RE = re.compile(r'^-\s*\*\*(LOC|CAST|CE|HOOK|MUSIC|AMB|SFX|NOTE|BEAT)\*\*\s*:\s*(.*)$')
+LINE_RE = re.compile(r'^-\s*(L\d{2,3})\s*·\s*([A-Z0-9_]+|VO|SFX)\s*(?:\(([^)]*)\))?\s*·\s*(VOX_[A-Z0-9_]+|—)\s*·\s*((?:\[[^\]]*\]\s*)*)(.*)$')
+META_RE = re.compile(r'^-\s*\*\*(LOC|CAST|CE|HOOK|MUSIC|AMB|SFX|NOTE|BEAT|NOT CE)\s*:?\s*\*\*\s*:?\s*(.*)$')
+CE_TAG_RE = re.compile(r'\s*\{((?:CE|CREATIVE|NOT CE)[^}]*)\}\s*$')
 SHOT_HDR = ['SHOT', 'SEC', 'MODE', 'CAST', 'CAMERA', 'ACTION', 'LINES', 'SOUND']
 
 
@@ -338,8 +339,13 @@ def parse_chapter(path):
                 continue
             m = LINE_RE.match(ln)
             if m:
+                text = m.group(6).strip()
+                ce = ''
+                mt = CE_TAG_RE.search(text)
+                if mt:
+                    ce, text = mt.group(1), text[:mt.start()].strip()
                 sc['lines'][m.group(1)] = dict(id=m.group(1), who=m.group(2), mod=m.group(3) or '',
-                                               vox=m.group(4), tag=(m.group(5) or ''), text=m.group(6).strip())
+                                               vox=m.group(4), tag=(m.group(5) or '').strip(), text=text, ce=ce)
                 continue
             c = cells(ln)
             if c and len(c) >= 8 and re.match(r'^\d{2}[a-z]?$', c[0]):
@@ -451,13 +457,17 @@ def cmd_compile(check_only=False):
                         problems.append(f"{sc['id']}-{sh['SHOT']}: line {lid} not defined in scene")
                 for s_id in re.findall(r'\bSFX_[A-Z0-9_]+\b', sh['SOUND']):
                     sfx_use[s_id].append(f"{sc['id']}-{sh['SHOT']}")
-                takes = max(n, len(lids)) if lids else n
+                def on_cam(l):
+                    ln_ = sc['lines'].get(l)
+                    return bool(ln_) and ln_['who'] not in ('VO', 'SFX') and ln_['mod'].strip().upper() not in ('V.O.', 'VO', 'O.S.') and ln_['vox'] != '—' and not ln_['who'].startswith('X_')
+                cam_lines = [l for l in lids if on_cam(l)]
+                takes = max(n, len(cam_lines))
                 for k in range(takes):
-                    lid = lids[k] if k < len(lids) else None
+                    lid = cam_lines[k] if k < len(cam_lines) else (lids[0] if (k == 0 and lids and not cam_lines) else None)
                     ln = sc['lines'].get(lid) if lid else None
                     clip_id = f"{sc['id']}-{sh['SHOT']}" + (f".{k+1}" if takes > 1 else '')
                     speak = ''
-                    if ln and ln['who'] not in ('VO', 'SFX') and ln['mod'].strip().upper() not in ('V.O.', 'VO', 'O.S.'):
+                    if ln and on_cam(lid):
                         speak = f" The character [{ln['who']}] speaks in Hindi, lips clearly visible: \"{ln['text']}\""
                     cam = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['CAMERA'])
                     act = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['ACTION'])
@@ -468,13 +478,13 @@ def cmd_compile(check_only=False):
                     prompts_md.append('```text\n' + prompt + f"\nAVOID: {neg_master}\n```")
                     shots_csv.append([clip_id, secs, sh['MODE'], ' '.join(refs), ' '.join(loc_ids), sh['CAMERA'],
                                       sh['ACTION'], lid or '', sh['SOUND'], prompt])
-            if sc['shots'] and abs(shot_secs - sc['dur']) > max(20, sc['dur'] * 0.35):
-                problems.append(f"{sc['id']}: shot seconds {shot_secs} vs scene duration {sc['dur']} (edit will trim; check coverage)")
+            if sc['shots'] and (shot_secs < 0.8 * sc['dur'] or shot_secs > 3.0 * sc['dur'] + 30):
+                problems.append(f"{sc['id']}: generated {shot_secs}s for a {sc['dur']}s scene (target 1.0–3.0x)")
             for ln in sc['lines'].values():
                 if ln['vox'] != '—' and ln['vox'] not in vox:
                     problems.append(f"{sc['id']} {ln['id']}: unknown voice {ln['vox']}")
-                vo_csv.append([sc['id'], ln['id'], ln['who'], ln['mod'], ln['vox'], ln['tag'], ln['text']])
-                vo_all.append([ch['id'], sc['id'], ln['id'], ln['who'], ln['vox'], ln['tag'], ln['text']])
+                vo_csv.append([sc['id'], ln['id'], ln['who'], ln['mod'], ln['vox'], ln['tag'], ln['text'], ln['ce']])
+                vo_all.append([ch['id'], sc['id'], ln['id'], ln['who'], ln['vox'], ln['tag'], ln['text'], ln['ce']])
         if not check_only:
             with open(os.path.join(BUILD, f"{ch['id']}_prompts.md"), 'w', encoding='utf-8') as f:
                 f.write('\n'.join(prompts_md) + '\n')
@@ -482,7 +492,7 @@ def cmd_compile(check_only=False):
                 cw = csv.writer(f); cw.writerow(['CLIP', 'SEC', 'MODE', 'REFS', 'LOC', 'CAMERA', 'ACTION', 'LINE', 'SOUND', 'PROMPT'])
                 cw.writerows(shots_csv)
             with open(os.path.join(BUILD, f"{ch['id']}_vo.csv"), 'w', encoding='utf-8', newline='') as f:
-                cw = csv.writer(f); cw.writerow(['SCENE', 'LINE', 'WHO', 'MOD', 'VOX', 'TAGS', 'TEXT'])
+                cw = csv.writer(f); cw.writerow(['SCENE', 'LINE', 'WHO', 'MOD', 'VOX', 'TAGS', 'TEXT', 'SOURCE'])
                 cw.writerows(vo_csv)
         ch['runtime'] = t_ch
         ch['clips'] = len(shots_csv)
@@ -495,7 +505,7 @@ def cmd_compile(check_only=False):
             for k in sorted(sfx_use):
                 cw.writerow([k, 'yes' if k in sfx else 'NO', len(sfx_use[k]), ' '.join(sfx_use[k][:40])])
         with open(os.path.join(BUILD, 'vo_all.csv'), 'w', encoding='utf-8', newline='') as f:
-            cw = csv.writer(f); cw.writerow(['CHAPTER', 'SCENE', 'LINE', 'WHO', 'VOX', 'TAGS', 'TEXT']); cw.writerows(vo_all)
+            cw = csv.writer(f); cw.writerow(['CHAPTER', 'SCENE', 'LINE', 'WHO', 'VOX', 'TAGS', 'TEXT', 'SOURCE']); cw.writerows(vo_all)
         # scene index
         out = ['# SCENE INDEX — AUTO-GENERATED from the shooting scripts (`tools/mbx.py compile`)\n']
         tot = defaultdict(int)
