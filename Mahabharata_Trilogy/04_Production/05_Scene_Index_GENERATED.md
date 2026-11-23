@@ -3,6 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
+| भाग २ — वन और शंख | 1 | 17 min 30 s | 170 | 2,483 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -146,6 +147,22 @@
 | P1C07S11 | EXT. HASTINAPURA STREETS — PRE-DAWN — THE DEPARTURE | 3:00 | LOC_HASTINAPURA_CITY LOC_VIDURA_HOUSE LOC_DYUTA_SABHA | KUN_D VID_B YUD_E BHM_E ARJ_E SAH_E NAK_E DRP_D DHM_A NRD_A X_CITIZEN X_RISHI | 2.69–2.71 (Vidura's description 2.71.3–22; Draupadī's prophecy 2.71.18–20; omens 2.71.25–28; Nārada 2.71.29–30) | Woh vidaai jo kisi film ne nahi dikhayi. |
 | P1C07S12 | INT. EMPTY HALL — NIGHT — "काल उलटा दिखाता है" | 1:45 | LOC_HASTINAPURA_CHAMBERS | DHR_B SNJ_A | 2.72.3–18 | (chapter end) Deepak bujhta hai. Andhera. Teraah saal door se ek shankh. |
 
+## P2C01 · किर्मीर — भाग २, अध्याय १ (0:00 – ≈20:00) — 17:30 · 170 clips (106 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C01S01 | INT. SARPASATTRA — NIGHT (FRAME) | 1:00 | LOC_SARPASATTRA | JAN_A VAI_A | CREATIVE frame (cf. 3.1) | "Kya ve toot gaye?" — "Toot-te to katha yahin khatm hoti." |
+| P2C01S02 | EXT. KĀMYAKA FOREST — RAIN NIGHT — KIRMĪRA | 2:15 | LOC_KAMYAKA | KRM_A BHM_E YUD_E ARJ_E NAK_E SAH_E DRP_D DHM_A X_BRAHMIN | 3.11–3.12 (Kirmīra names himself 3.12.22, 30–32) | Van ki pehli raat — aur koi unka naam jaanta hai. |
+| P2C01S03 | TITLE | 0:25 | LOC_KAMYAKA |  | CREATIVE |  |
+| P2C01S04 | EXT. GAṄGĀ AT THE FOREST EDGE — DAWN | 1:30 | LOC_GANGA_EXILE | YUD_E DHM_A X_CITIZEN X_BRAHMIN | 3.1–3.3 (108 names of Sūrya 3.3.15–30) | Raja ke paas khilane ko kuchh nahi — aur peechhe-peechhe aaye log lautne ko taiyaar nahi. |
+| P2C01S05 | EXT. RIVER — SUNRISE — THE BOON | 1:45 | LOC_GANGA_EXILE | YUD_E SUR_A DHM_A BHM_E ARJ_E DRP_D | 3.4.1–5 (twelve years = "sapta pañca ca"; the Pāṇḍava cooks with Draupadī 3.4.5; NOT CE: copper akṣayapātra *21) |  |
+| P2C01S06 | INT. HASTINAPURA — VIDURA SENT AWAY | 1:30 | LOC_HASTINAPURA_CHAMBERS | VID_B DHR_C | 3.5 (dismissal 3.5.19) | Andha raja apna ek-matr sachcha salahkaar nikaal deta hai. |
+| P2C01S07 | EXT. KĀMYAKA / INT. HASTINAPURA — VIDURA RETURNS | 1:15 | LOC_KAMYAKA LOC_HASTINAPURA_CHAMBERS | VID_B YUD_E BHM_E ARJ_E DHR_C SNJ_A | 3.6–3.7 (Sañjaya sent 3.7.7) |  |
+| P2C01S08 | INT. DHṚTARĀṢṬRA'S HALL — MAITREYA'S CURSE | 1:45 | LOC_HASTINAPURA_COURT | MTY_A DUR_D DHR_C KRN_C SHK_B X_COURTIER | 3.10–3.11 (3.11.27–34) | Wahi jaangh jo usne Draupadī ko dikhayi thi — ab do baar shaapit. |
+| P2C01S09 | EXT. KĀMYAKA — DAY — KṚṢṆA AND DRAUPADĪ | 3:00 | LOC_KAMYAKA | KRS_B DRP_D YUD_E BHM_E ARJ_E NAK_E SAH_E X_YADAVA | 3.13 (Draupadī 3.13.110–113; Kṛṣṇa's vow 3.13.114–117) | "Na pati, na putra, na bhai, na pita — na tum." Aur ek vachan: "aakash gir jaaye…" |
+| P2C01S10 | FLASHBACK — SAUBHA, THE FLYING IRON CITY | 2:30 | LOC_SAUBHA LOC_DVARAKA_CITY | KRS_B SLV_A X_YADAVA X_DANAVA | 3.14–3.23 ("I would have come uninvited" 3.14.1–3) | Kṛṣṇa kahan the jab sabha mein yeh sab hua? Ek udte lohe ke nagar se lad rahe the. |
+| P2C01S11 | EXT. DVAITAVANA LAKE — EVENING (CHAPTER HOOK) | 0:35 | LOC_DVAITAVANA | DRP_D YUD_E | 3.28.1–3 | (chapter end) Mahakāvya ki sabse badi bahas shuru hone wali hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -156,4 +173,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 426 | 33,680 characters for TTS/STS |
+| Dialogue + narration lines | 455 | 36,163 characters for TTS/STS |
