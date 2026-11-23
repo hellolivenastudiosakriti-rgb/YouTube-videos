@@ -172,7 +172,7 @@ Har theme ka **ek approved master (2:30–3:00)** banega. Har scene-cue usi mast
 | MUS_P2C06_C | The kitchen at night | FLOW | THM_DRAUPADI sarangi, intimate | 2:00 |
 | MUS_P2C06_D | The dance hall | SIL | NO MUSIC — only bodies | 0:00 |
 | MUS_P2C06_E | 105 Upakīcakas | FLOW | explosive action | 1:30 |
-| MUS_P2C06_F | "Yah Bhīma hai" | FLOW | THM_DURYODHANA sting | 0:40 |
+| MUS_P2C06_F | The spies return; Suśarman's plan | FLOW | THM_DURYODHANA sting | 0:40 |
 | MUS_P2C06_G | Uttara boasts | FLOW | comic cue | 1:00 |
 | MUS_P2C06_H | The śamī reveal | FLOW | THM_ARJUNA, ten names like hammer-blows | 2:00 |
 | MUS_P2C06_I | One chariot against six | FLOW | THM_WAR with THM_ARJUNA on top | 3:00 |

@@ -3,7 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
-| भाग २ — वन और शंख | 5 | 99 min 20 s | 962 | 13,083 |
+| भाग २ — वन और शंख | 6 | 130 min 05 s | 1266 | 22,965 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -222,6 +222,26 @@
 | P2C05S07 | EXT. CREMATION GROUND OUTSIDE MATSYA — DUSK — THE ŚAMĪ TREE | 1:30 | LOC_SHAMI_CREMATION | YUD_E BHM_E ARJ_E NAK_E SAH_E DRP_D CR_JACKAL | 4.5 |  |
 | P2C05S08 | INT. VIRĀṬA'S COURT — DAYS — THE DISGUISES (MONTAGE) | 2:00 | LOC_VIRATA_COURT LOC_VIRATA_PALACE | YUD_F BHM_F ARJ_G NAK_F SAH_F DRP_E VRT_A SDS_A KCK_A | 4.1–4.13 (Kaṅka's dice 4.6.1; Bṛhannaḍā 4.2.21–24; Sairandhrī 4.8; NOT CE: hymn to Durgā App. I.4, Urvaśī's curse App. I.6) | (chapter end) Rani ka bhai — Kīcaka — Sairandhrī ko dekhta hai. |
 
+## P2C06 · कीचक और बृहन्नला — भाग २, अध्याय ६ (≈99:20 – 130:05) — 30:45 · 304 clips (168 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C06S01 | INT. QUEEN'S PALACE — KĪCAKA'S DESIRE | 1:45 | LOC_VIRATA_PALACE | KCK_A SDS_A DRP_E | 4.13–4.14 (to Sudeṣṇā 4.13.6–9; to Kṛṣṇā 4.13.12; refusal 4.13.14–18; wine 4.14.10–17; prayer to Sūrya 4.14.18–20) | Ek bahan apne bhai se darti hai — aur dasi ko uske ghar bhejti hai. Dasi Sūrya se praarthana karti hai — aur Sūrya sun lete hain. |
+| P2C06S02 | INT. ROYAL HALL — THE KICK | 2:15 | LOC_VIRATA_COURT | KCK_A DRP_E VRT_A YUD_F BHM_F | 4.15 (grab and flight 4.15.6; the kick 4.15.7; the Sun's rākṣasa 4.15.8–9; teeth 4.15.11; toe-press 4.15.12; refrain 4.15.15–19; "where are they" 4.15.20–21; "dharma of robbers" 4.15.24; Virāṭa 4.15.27; sweat 4.15.30; Kaṅka 4.15.31–34; "whose eldest is a gambler" 4.15.35) | Raja chup. Ek rasoiya daant peesta hai. Ek paasa-khiladi uska angootha dabaata hai — aur use hi laut kar sunna padta hai: "jinka bada bhai juaari ho…" |
+| P2C06S03 | INT. PALACE KITCHEN — NIGHT — "देखो मेरे हाथ" | 3:00 | LOC_VIRATA_PALACE | DRP_E BHM_F | 4.16–4.21 (to the kitchen 4.16.4–7; "get up" 4.16.9–10; Bhīma 4.16.13–16; "whose husband is Yudhiṣṭhira" 4.17.1–2; "who would live" 4.17.5; sandal-paste and hands 4.19.22–23; Bhīma weeps 4.19.29–30; the plan 4.21.1–4) | Bandh tootta hai. Ek rani jo chandan ghisti hai — aur ek rasoiya jo ro padta hai. |
+| P2C06S04 | INT. DANCE HALL — MIDNIGHT — ELEVATION #4 | 2:30 | LOC_VIRATA_PALACE | KCK_A BHM_F DRP_E | 4.21 (in darkness 4.21.39–42; "no man like you" 4.21.44–45; "such a touch" 4.21.46; the hair 4.21.47–48; the ball of flesh 4.21.58–60; "come and see" 4.21.61; Draupadī to the guards 4.21.63–64; the torches 4.21.65–67) | Koi music nahi. Sirf shareer — aur ek vaakya jo Bhīma muskurate hue kehta hai. |
+| P2C06S05 | EXT. CREMATION GROUND — DAWN — 105 | 1:45 | LOC_SHAMI_CREMATION | DRP_E BHM_F X_UPAKICHAKA VRT_A | 4.22 (like a tortoise 4.22.2; the pillar 4.22.4; "burn her with him" 4.22.5–6; Virāṭa consents 4.22.7–8; code names 4.22.12; the tree 4.22.18–19; 105 slain 4.22.25–29) | Raja ne bhi haan kar di — chita taiyar hai. Phir deewar ke us paar se ek ped chalta hua aata hai. |
+| P2C06S06 | INT. HASTINAPURA — THE SPIES RETURN | 1:00 | LOC_HASTINAPURA_COURT | DUR_D KRN_C SHK_B BHS_C SSM_A X_COURTIER | 4.24–4.29 (no trace, not even at Dvārakā 4.24.13–16; Kīcaka slain by invisible gandharvas 4.24.18–20; Duryodhana's clock 4.25.3–6; Suśarman's plan 4.29.2–11; the two-pronged raid 4.29.25–28) | Duryodhana ke paas bas kuch hi din bache hain — aur Matsya ka sabse bada yoddha raaton-raat mar gaya hai. |
+| P2C06S07 | EXT. SOUTHERN FIELDS — VIRĀṬA FREED | 1:15 | LOC_VIRATA_PLAINS | VRT_A BHM_F YUD_F SSM_A X_SAMSHAPTAKA CR_COW | 4.30–4.33 (Virāṭa taken alive "like a weeping bride" 4.32.8–9; "repay the stay" 4.32.12–13; the tree 4.32.16–20) |  |
+| P2C06S08 | INT. HAREM — "SĀRATHI HO TO…" | 1:30 | LOC_VIRATA_PALACE | UTR_A DRP_E UTA_A ARJ_G X_MAID | 4.34–4.35 (the boast 4.34.1–9; Draupadī 4.34.12–16; Uttarā 4.35.3–7; Bṛhannaḍā demurs 4.35.14–16; the armour joke 4.35.17–18; dolls 4.35.22–25) | "Kaurav sochenge — kahin yeh saakshaat Arjuna to nahi!" — aur jo sach mein Arjuna hai, woh kavach ulta pehen kar ladkiyon ko hansa raha hai. |
+| P2C06S09 | EXT. NORTHERN PLAIN — THE RUNAWAY PRINCE | 1:45 | LOC_VIRATA_PLAINS | UTR_A ARJ_G | 4.36 (terror 4.36.9–16; Arjuna 4.36.17–23; flight 4.36.24–27; the Kurus wonder 4.36.29–31; a hundred paces, the bribes 4.36.37–40; "hold my horses" 4.36.42–45) |  |
+| P2C06S10 | EXT. THE ŚAMĪ TREE — "DAS NAAM" | 2:45 | LOC_SHAMI_CREMATION | UTR_A ARJ_G ARJ_H | 4.38–4.41 (the "corpse" 4.38.9–12; "whose bow" 4.38.20; "where are the Pārthas" 4.39.1–4; identities 4.39.5–6; ten names 4.39.7–8; the vow 4.40.10–13; bangles, white cloth, Gāṇḍīva's roar 4.40.23–27; the ape banner 4.41.2–3) | Ek kinnar ki chudiyan utarti hain — aur das naam hathode ki tarah girte hain. |
+| P2C06S11 | EXT. THE KURU CAMP — BHĪṢMA COUNTS | 1:30 | LOC_VIRATA_PLAINS | DUR_D BHS_D DRO_D KRP_B KRN_C ASW_B | 4.42–4.48 (Duryodhana 4.42.3–5; the count 4.47.3–4; "they would choose death over a lie" 4.47.5, 4.47.9; the salute arrows 4.48.3–7) | "Terah varsh poore nahi hue!" — "Ho chuke. Paanch maas aur baarah raatein upar." Phir do baan guru ke charnon mein aa girte hain. |
+| P2C06S12 | EXT. NORTHERN PLAIN — ONE CHARIOT AGAINST ALL — ELEVATION #5 | 3:30 | LOC_VIRATA_PLAINS | ARJ_H UTR_A KRN_C DRO_D ASW_B KRP_B BHS_D DUR_D | 4.49–4.60 (Karṇa leaves the field 4.49.22–23; Droṇa 4.53.15–18; the sabhā debt 4.55.1–5, 4.55.7–8, 4.55.13; Karṇa struck through the chest 4.55.23–25; Bhīṣma carried off senseless 4.59.44; Duryodhana 4.60.15–19) | Sabha ka hisaab — Karṇa se, isi maidan mein. |
+| P2C06S13 | EXT. NORTHERN PLAIN — SAMMOHANA AND THE DOLLS' CLOTHS | 2:00 | LOC_VIRATA_PLAINS | ARJ_H UTR_A BHS_D DRO_D KRP_B KRN_C ASW_B DUR_D | 4.61 (sammohana and the conch 4.61.8–11; the cloths 4.61.12–14; Uttara 4.61.15; Bhīṣma's horses 4.61.17–18; "bind him" — "where was your valour" 4.61.20–22; Arjuna honours his gurus 4.61.25) | Ek ladka soye hue mahayoddhaon ke beech se kapde utha raha hai — par Bhīṣma soye nahi hain. |
+| P2C06S14 | INT. VIRĀṬA'S HALL — THE DROP OF BLOOD | 2:15 | LOC_VIRATA_COURT | VRT_A YUD_F DRP_E | 4.63 (Kaṅka on dice 4.63.33–35; "see what my son did" 4.63.36; Bṛhannaḍā 4.63.37; Virāṭa's anger 4.63.38–40; Indra and the Maruts 4.63.41–42; the strike 4.63.43–45; the golden vessel 4.63.46–47; the whisper 4.63.52–54) | Dharti par ek boond giri — to Bṛhannaḍā raja ko zinda nahi chhodegi. |
+| P2C06S15 | INT. VIRĀṬA'S HALL — THE THIRD DAY — FIVE MEN ON THE THRONES | 2:00 | LOC_VIRATA_COURT | YUD_G BHM_G ARJ_I NAK_G SAH_G DRP_F VRT_A UTA_A | 4.65–4.67 (bathed, in white, on the kings' seats 4.65.1–3; "why on the throne?" 4.65.5–6; "worthy of Indra's seat" 4.65.7–9; "which is Arjuna?" 4.66.1–2; Arjuna names them 4.66.3–9; "like beings in the womb" 4.66.10; Uttarā as daughter-in-law 4.67.1–6) | (chapter end) Pehchaan — aur ek beti jo bahu banegi. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -232,4 +252,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 129 | — |
-| Dialogue + narration lines | 594 | 46,763 characters for TTS/STS |
+| Dialogue + narration lines | 676 | 56,645 characters for TTS/STS |
