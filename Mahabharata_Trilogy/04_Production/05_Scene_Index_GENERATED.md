@@ -3,7 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
-| भाग २ — वन और शंख | 1 | 17 min 30 s | 170 | 2,483 |
+| भाग २ — वन और शंख | 2 | 36 min 15 s | 354 | 5,361 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -163,6 +163,19 @@
 | P2C01S10 | FLASHBACK — SAUBHA, THE FLYING IRON CITY | 2:30 | LOC_SAUBHA LOC_DVARAKA_CITY | KRS_B SLV_A X_YADAVA X_DANAVA | 3.14–3.23 ("I would have come uninvited" 3.14.1–3) | Kṛṣṇa kahan the jab sabha mein yeh sab hua? Ek udte lohe ke nagar se lad rahe the. |
 | P2C01S11 | EXT. DVAITAVANA LAKE — EVENING (CHAPTER HOOK) | 0:35 | LOC_DVAITAVANA | DRP_D YUD_E | 3.28.1–3 | (chapter end) Mahakāvya ki sabse badi bahas shuru hone wali hai. |
 
+## P2C02 · क्रोध और तप — भाग २, अध्याय २ (≈20:00 – 44:00) — 18:45 · 184 clips (128 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C02S01 | EXT. DVAITAVANA LAKE — EVENING — THE GREAT ARGUMENT | 4:30 | LOC_DVAITAVANA | DRP_D YUD_E BHM_E ARJ_E NAK_E SAH_E | 3.28–3.36 (refrain 3.28.19–27; Prahlāda's verse 3.29.6; the puppet 3.31.22; dharma without fruit 3.32.2–4; anger 3.30.1, 36; thirteen months 3.36.31–32) | Courtroom drama — do camere, ek jheel, koi music nahi. |
+| P2C02S02 | EXT. DVAITAVANA — VYĀSA'S ADVICE | 1:15 | LOC_DVAITAVANA | VYA_B YUD_E ARJ_E | 3.37 (Pratismṛti 3.37.27) |  |
+| P2C02S03 | EXT. KĀMYAKA — DAWN — FAREWELL | 1:15 | LOC_KAMYAKA | ARJ_E DRP_D YUD_E BHM_E DHM_A | 3.38.1–20 | Pehli baar dono ke beech komalta. |
+| P2C02S04 | EXT. HIMĀLAYA — INDRAKĪLA — THE OLD ASCETIC | 2:00 | LOC_HIMALAYA | ARJ_E IND_A IND_B | 3.38.30–45 | "Hathiyaar phenk do, moksh dhoondo." — "Main astra ke liye aaya hoon." |
+| P2C02S05 | EXT. HIMĀLAYA — AUSTERITY (MONTAGE) | 1:00 | LOC_HIMALAYA | ARJ_E | 3.39.20–25 |  |
+| P2C02S06 | EXT. HIMĀLAYAN FOREST — THE KIRĀTA — ELEVATION #1 | 4:30 | LOC_HIMALAYA | ARJ_E SHV_A UMA_A X_BHUTA | 3.39–3.40 (the hunter "like a golden tree", golden-radiant 3.40.2, 17; with Umā, bhūtas and thousands of women 3.40.4–5; Arjuna speaks first 3.40.18–20; arrows vanish 3.40.29; bow swallowed, sword shattered 3.40.40–42; fists, smoke and sparks 3.40.43–48; crushed into a ball 3.40.49–51; NOT CE: clay liṅga and garland) | Arjuna ke akshay tarkash khaali ho jaate hain. |
+| P2C02S07 | EXT. HIMĀLAYA — RECOGNITION — PĀŚUPATA | 2:30 | LOC_HIMALAYA | SHV_B UMA_A ARJ_E | 3.40.52–3.41.20 (Pāśupata 3.41.7–15) | "Tum prāchīn ṛṣi ho." |
+| P2C02S08 | EXT. HIMĀLAYAN PEAKS — THE WORLD-GUARDIANS | 1:45 | LOC_HIMALAYA | YAM_A VRN_A KUB_A IND_B ARJ_E MTL_A | 3.42–3.43 | (chapter end) Aasmaan se Mātali ka rath utarta hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -172,5 +185,5 @@
 | SIL | 10 | 0:00 |
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
-| Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 455 | 36,163 characters for TTS/STS |
+| Voices defined (VOX) | 129 | — |
+| Dialogue + narration lines | 487 | 39,041 characters for TTS/STS |

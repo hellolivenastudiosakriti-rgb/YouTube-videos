@@ -557,6 +557,7 @@ Har theme ka **ek approved master (2:30–3:00)** banega. Har scene-cue usi mast
 | VOX_U38 | Kindama (dying deer) | a dying man's voice coming from an animal, breathy | Creative · 0.8 · 0.4 |
 | VOX_U39 | Herald / crier | loud ceremonial herald | Natural · 0.85 · 0.35 |
 | VOX_U40 | Kaurava soldier / messenger | panicked soldier | Creative · 0.8 · 0.4 |
+| VOX_U41 | Yama | deep stern unhurried bass, cold as stone | Robust · 0.85 · 0.15 |
 | VOX_CROWD | Crowd lines ("धिक्!", "भीष्म!", "अर्जुन!") | build from 12 different utility voices, each line generated 3× with slight variation, layered and panned | — |
 
 ---
