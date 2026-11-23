@@ -254,3 +254,30 @@ Lakshagraha 6 log (1.136.4) · Kanika App. I 81 · Nagaloka App. I 72–73 · bi
 3. **No fantasy glow:** divya ghatnaayein (phool-varsha, aakaashvani, vastra-vardhan, vishwaroop) — **prakritik/physical** tareeke se: hawa, roshni, dhool, dhuan, aawaz ka khalipan.
 4. **Material culture:** PGW Iron Age (c. 1100–800 BCE) — mitti/kacchi-pakki eent, saal ki lakdi, chuna, hathkargha, sīna hua kapda nahi (antarīya/uttarīya), shankh = seep, rath = **arey-wale (spoked) pahiye**, ghode.
 5. **Character continuity:** ek hi ID registry; umar ke stages Master Bible mein.
+
+---
+
+## 8. ADDENDUM — script likhte waqt mile aur myth-busts (sab BORI e-text se verified)
+
+| # | Popular / Gemini version | BORI CE reality | Proof |
+|---|---|---|---|
+| A1 | Surya ne **tambe ka "Akshaya Patra"** diya | CE mein sirf vardaan: "12 saal ka akshay bhojan, tumhari rasoi mein pakega" — **bartan star passage hai** | 3.4.1–3 vs **3\*21** |
+| A2 | Ghoshayatra: "**hum 105 hain**" (vayaṁ pañcottaraṁ śatam) | CE mein nahi | **3\*1119, 3\*1122** |
+| A3 | Kirata: mitti ka linga + maala Kirata ke sir par | CE: Arjuna kuchla jaata hai; Shiva khud prasann hokar roop dikhate hain | 3.40.40–54 |
+| A4 | Agni ki bhookh = Raja **Shvetaki** ke 12 saal ke ghee se bimari | CE mein ye kahani nahi; Agni seedhe Khandava maangta hai | 1.215.1–9 |
+| A5 | Vidura ki **yantra-naav** Ganga paar karaati hai | **App. I.81**; CE mein Pandava raat mein **taaron se disha dekh kar dakshin** bhaagte hain (Vidura ki paheli ka payoff) | 1.137.17–18 |
+| A6 | Krishna ka Karna ko taana: "...jab Abhimanyu ko ghera tab dharma kahan tha?" | 8.67.1–5 mein Abhimanyu **nahi**; ye taana Krishna ne **Duryodhana** ko diya | 9.60.45–46 |
+| A7 | Bhagadatta ki **latki palkein patti se bandhi** | CE mein nahi | **7\*224** |
+| A8 | Bhishma "roz 10,000 maarunga" — maine pehle doubt kiya | **CE mein hai** | 5.153.21 |
+| A9 | Duryodhana: "kaun mujhse behtar ant paaya?" | ✅ + pushp-varsha + "saadhu saadhu" | 9.60.47–52 |
+| A10 | Dhrishtadyumna ki maut | Ashwatthama ne **pashu ki tarah** pairon se kuchal kar maara; DD ne "shastra se maaro" maanga | 10.8.18–19 |
+| A11 | Ashwatthama ka astra | **iṣīkā (sarkanda) baaye haath mein**, us mein aag | 10.13.17–20 |
+| A12 | Bhishma ka deh-tyag | jahan-jahan se praan nikle, wo ang **baan-mukt** hota gaya — pal bhar mein poore baan-mukt | 13.154.3–4 |
+| A13 | Raat ke mrit yoddha | Bhishma-Drona aage; Draupadeya, Abhimanyu, Ghatotkacha; **Karna, Duryodhana, Shakuni** — aur **Pandava Karna se khush hokar mile** | 15.40.7–9, 15.41.4–5 |
+| A14 | Kichaka-vadh ke baad | **105 Upakichaka** maare gaye | 4.22.25–29 |
+| A15 | Kichaka ki laat par Bhima ko kisne roka | Yudhishthira ne **apne angoothe se Bhima ka angootha dabaaya** | 4.15.12 |
+| A16 | Draupadi ke haath | sandal ghis-ghis kar **chhaale (kiṇa) pade haath** dikhaati hai | 4.19.23, 29 |
+| A17 | Gandharva code-naam | Jaya, Jayanta, Vijaya, Jayatsena, Jayadbala | 4.5.30, 4.22.12 |
+| A18 | Krishna ka Karna ko prastav | "chhathe kaal mein Draupadi tumhare paas aayegi" — CE mein **hai** | 5.138.15 |
+| A19 | Karna ka "shastra-yajna" roopak | Krishna = yajna ke gyaata, Arjuna = hota, Bhima = udgata, **rakt = havi** | 5.139.29–46 |
+| A20 | Kunti-Karna par Surya ki aawaz | ✅ "Pritha sach kehti hai" — phir bhi Karna nahi dola | 5.144.1–3 |
