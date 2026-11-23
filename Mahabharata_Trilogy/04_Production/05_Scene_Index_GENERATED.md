@@ -2,7 +2,7 @@
 
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
-| भाग १ — प्रतिज्ञा और सभा | 5 | 126 min 25 s | 1242 | 22,623 |
+| भाग १ — प्रतिज्ञा और सभा | 6 | 151 min 50 s | 1493 | 26,533 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -111,6 +111,24 @@
 | P1C05S18 | INT. SUDHARMĀ HALL, DVĀRAKĀ — BALARĀMA'S FURY | 1:45 | LOC_DVARAKA_SUDHARMA | BAL_A KRS_A X_YADAVA | 1.212.9–31; 1.213.1–10 | Ek bhai jo poori prithvi Kauravon se khaali karna chahta hai — aur doosra jo muskurata hai. |
 | P1C05S19 | BIRTHS — AND A GUEST (CHAPTER HOOK) | 1:00 | LOC_INDRAPRASTHA_HALL LOC_YAMUNA_GROVE | SUB_A DRP_B X_NEWBORN KRS_A ARJ_D AGN_A | 1.213.55–75 (Abhimanyu; Draupadī's sons — names 1.57.102); 1.214 | (chapter end) Garmi ki dopahar, do mitra — aur ek brāhmaṇ jiski tvacha garmi ki lehron jaisi kaanpti hai. |
 
+## P1C06 · खांडव और मय-सभा — भाग १, अध्याय ६ (≈125:00 – 151:00) — 25:25 · 251 clips (155 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P1C06S01 | EXT. YAMUNĀ GROVE — HOT AFTERNOON — AGNI'S HUNGER | 1:30 | LOC_YAMUNA_GROVE | AGN_A KRS_A ARJ_D | 1.214–1.215 (Arjuna's needs 1.215.13–16) | Ek brāhmaṇ jo anna nahi, poora van khaana chahta hai. |
+| P1C06S02 | EXT. YAMUNĀ — THE GIFTS | 2:00 | LOC_YAMUNA_GROVE | ARJ_D KRS_A AGN_A | 1.216.1–30 (Gāṇḍīva was Soma's 1.216.3–7; chariot and horses 1.216.8–14; discus 1.216.21–24; Kaumodakī 1.216.25) | Jal se ek dhanush uthta hai — jiski tankaar sunkar dil dhadakna bhool jaate hain. |
+| P1C06S03 | EXT. KHĀṆḌAVA — DUSK → NIGHT — ELEVATION #6 | 3:15 | LOC_KHANDAVA | ARJ_D KRS_A CR_ASHVASENA MAY_A | 1.217–1.219 (two chariots 1.217.1–3; Arjuna laughing as he throws birds back 1.217.11; Aśvasena escapes 1.218.5–9; six survivors 1.219.40) | Ise mahimāmandit mat karna — dikhao, ganwao mat. Ek saanp bach nikalta hai — Part III mein lautega. |
+| P1C06S04 | INSIDE THE FIRE — THE FOUR BIRDS | 1:15 | LOC_KHANDAVA | CR_SHARNGAKA | 1.220–1.225; 1.219.40 | Pura van raakh — ek ped khada hai, chaar chhote sir baahar jhaankte hain. |
+| P1C06S05 | EXT./INT. INDRAPRASTHA — FOURTEEN MONTHS — MAYA BUILDS | 1:30 | LOC_MAYA_SABHA | MAY_A BHM_D ARJ_D KRS_A X_CRAFTSMAN | 2.1–2.4 (gifts 2.3.18; pond 2.3.27–30; fourteen months 2.3.34) |  |
+| P1C06S06 | INT. MAYA SABHĀ — NĀRADA'S QUESTIONS | 1:15 | LOC_MAYA_SABHA | NRD_A YUD_D BHM_D ARJ_D NAK_D SAH_D | 2.5 ("kaccit…"); 2.11.65–70 (Pāṇḍu's message) | Ek rishi jo raja se poochhta hai — "tumhare sainikon ko vetan samay par milta hai?" |
+| P1C06S07 | INT. COUNCIL — NIGHT — THE KING WHO WAITS FOR A HUNDRED | 1:30 | LOC_INDRAPRASTHA_HALL | KRS_A YUD_D BHM_D ARJ_D JRS_A JRK_A X_NEWBORN | 2.12–2.19 (86 kings 2.14.19; birth in two halves joined by Jarā 2.16–2.17) | 86 raja qaid mein. Sau poore hote hi bali. |
+| P1C06S08 | INT. GIRIVRAJA ARENA — FOURTEEN NIGHTS — ELEVATION #7 | 3:00 | LOC_GIRIVRAJA | KRS_A BHM_D ARJ_D JRS_A MGP_A | 2.20–2.22 (14th night 2.21.17–18; 2.22.2–8; NOT CE: the grass blade, tearing in two halves) |  |
+| P1C06S09 | MONTAGE — "दिग्विजय" | 0:40 | LOC_HIMALAYA LOC_KURU_PLAIN | ARJ_D BHM_D SAH_D NAK_D X_KING | 2.23–2.29 |  |
+| P1C06S10 | INT. MAYA SABHĀ — THE RĀJASŪYA — ŚIŚUPĀLA | 3:15 | LOC_MAYA_SABHA | BHS_C SAH_D KRS_A SHP_A YUD_D X_KING | 2.33–2.42 (birth signs 2.40.1–5; a hundred offences 2.40.22; last insult 2.42.20; discus 2.42.21; radiance 2.42.22–24; rain and quake 2.42.25; Kṛṣṇa leaves 2.42.55–60) | Sau gaaliyan maaf — ek sau ek par chakra. |
+| P1C06S11 | INT. MAYA SABHĀ — DAYS LATER — THE POOL | 1:45 | LOC_MAYA_SABHA | DUR_C SHK_B BHM_D ARJ_D NAK_D SAH_D YUD_D X_SERVANT | 2.43.1–14; 2.46.33–34 (laughers: servants, then Bhīma, Arjuna and the twins — NO Draupadī) | Hansi — ek aisi chingaari jo yudh banegi. |
+| P1C06S12 | EXT. ROAD / INT. DHṚTARĀṢṬRA'S CHAMBER — THE LIE | 3:00 | LOC_HASTINAPURA_ROAD LOC_HASTINAPURA_CHAMBERS | DUR_C SHK_B DHR_B VID_B | 2.43.13–2.51 (Duryodhana's lie 2.46.27–31; Śakuni 2.44–2.45, 2.45.40) | Ek beta jo pita se jhooth bolta hai — aur ek mama jo sach jaanta hai, par chup rehta hai. |
+| P1C06S13 | INT. INDRAPRASTHA — NIGHT — THE INVITATION | 1:30 | LOC_INDRAPRASTHA_HALL | VID_B YUD_D BHM_D ARJ_D DRP_B | 2.52.11–16 | (chapter end) "Main lalkaar se kabhi peechhe nahi hat-ta" — aur ek maut ka nagaada. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -121,4 +139,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 288 | 22,623 characters for TTS/STS |
+| Dialogue + narration lines | 341 | 26,533 characters for TTS/STS |
