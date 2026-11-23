@@ -18,7 +18,7 @@
 | LOC | Location | PARTS | DNA (locked) | Light / state variants |
 |---|---|---|---|---|
 | LOC_SARPASATTRA | सर्पसत्र मंडप, तक्षशिला | P1,P2,P3 | vast open sacrificial pavilion of sal timber posts and woven-mat roof on a mud-brick platform, a deep brick-lined fire altar with flames twenty feet high, ghee pots, kuśa grass, rows of priests, smoke rising into the sky, the stone city of Takṣaśilā on hills behind | dusk; night (fire banked); grey dawn (fire dying); ridge above the empty pavilion |
-| LOC_KURU_PLAIN | कुरुक्षेत्र | P1,P2,P3 | an endless flat plain of red-brown earth beside the small Hiraṇvatī river, scattered thorn trees, two vast armies of chariots, elephants and infantry facing each other across an empty strip, forests of banner poles, dust | pre-dawn mist; sunrise; harsh noon; sunset; night with torches; aftermath (strewn with dead) |
+| LOC_KURU_PLAIN | कुरुक्षेत्र (हिरण्वती तट सहित) | P1,P2,P3 | an endless flat plain of red-brown earth beside the small Hiraṇvatī river, scattered thorn trees, two vast armies of chariots, elephants and infantry facing each other across an empty strip, forests of banner poles, dust | pre-dawn mist; sunrise; harsh noon; sunset; night with torches; aftermath (strewn with dead); Hiraṇvatī bank in fog (Citrāṅgada's 3-year duel, 1.95.8) |
 | LOC_KURU_ARROWBED | शरशय्या स्थल | P3 | a cleared patch of the battlefield where Bhīṣma lies on arrows, a ring of guards and low cloth tents around him, banners lowered, an arrow-spring of water in the earth | sunset day 10; night; changing seasons over 58 nights (dry → misty winter → Māgha bright fortnight) |
 | LOC_GANGA_HASTINAPURA | गंगा तट, हस्तिनापुर | P1,P2,P3 | a broad grey-green Gaṅgā with black river-stones, sand bars, reed beds and bathing steps of packed earth and stone, sal forest on the far bank | blue fog pre-dawn; noon glare (Karṇa's prayer); dusk; night of the dead (moon on water) |
 | LOC_GANGA_ARROWDAM | गंगा — बाणों का बाँध | P1 | a stretch of the Gaṅgā shrunk to a trickle over wet sand with flapping fish; upstream a wall-lattice of thousands of arrows across the riverbed holding back a bulging mass of water | late-afternoon golden backlight; spray; dam-burst |
@@ -30,7 +30,6 @@
 | LOC_YAMUNA_FERRY | यमुना घाट | P1 | a quiet Yamunā ferry landing: reeds, a long wooden ferry boat, a punting pole, mud steps | dusk with mist |
 | LOC_DASA_SETTLEMENT | दाशों की बस्ती | P1 | a fishermen's settlement on the river: huts of reed and mud, drying nets on poles, smoke, fish-oil lamps, an open assembly ground under a great tree with a woven screen at its edge | night; twilight assembly; flower-fall |
 | LOC_KASHI | काशी स्वयंवर | P1 | a crowded royal swayamvara ground of a river city, painted pavilions, kings' chariots | day (montage) |
-| LOC_SARASVATI_FIELD | सरस्वती का क्षेत्र | P1 | a misty open field beside the Sarasvatī river | fog |
 | LOC_NIYOGA_CHAMBER | शयनकक्ष (नियोग) | P1 | a royal bedchamber, one oil lamp, white bed-linen, dark corners | night |
 | LOC_GANDHARA | गांधार प्रासाद | P1 | a north-western palace of stone and timber with wool hangings, braziers, snow mountains through the window | cold daylight |
 | LOC_KUNTIBHOJA | कुंतिभोज का प्रासाद | P1 | a modest palace with a flat roof-terrace facing east | dawn; midnight |

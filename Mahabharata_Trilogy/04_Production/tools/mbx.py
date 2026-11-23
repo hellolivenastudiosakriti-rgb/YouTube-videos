@@ -430,11 +430,32 @@ def cmd_compile(check_only=False):
             index.append([ch['id'], sc['id'], sc['head'], sc['dur'], ' '.join(loc_ids), ' '.join(cast_ids),
                           sc['meta']['CE'], sc['meta']['HOOK']])
             shot_secs = 0
-            loc_dna = ' '.join(f"{locs[l]['dna']}" for l in loc_ids if l in locs)
+            loc_dna = ' '.join(f"{locs[l]['dna']}." for l in loc_ids if l in locs)
+            mlight = re.search(r'\(([^)]*)\)', sc['meta']['LOC'])
+            if mlight:
+                loc_dna += f" LIGHT/STATE: {mlight.group(1)}."
             prompts_md.append(f"\n## {sc['id']} · {sc['head']} · {sc['dur']//60}:{sc['dur']%60:02d}\n")
+            def on_cam_s(l):
+                ln_ = sc['lines'].get(l)
+                return bool(ln_) and ln_['who'] not in ('VO', 'SFX') and ln_['mod'].strip().upper() not in ('V.O.', 'VO', 'O.S.') and ln_['vox'] != '—' and not ln_['who'].startswith('X_')
+            base_secs = 0
             for sh in sc['shots']:
+                s0, n0 = expand_secs(sh['SEC'])
+                c0 = [l for l in line_ids(sh['LINES'], sc['lines']) if on_cam_s(l)]
+                base_secs += s0 * max(n0, len(c0))
+            # auto-coverage: alternate takes until generated footage >= 1.25 x screen time
+            alt = defaultdict(int)
+            elig = [i for i, sh in enumerate(sc['shots']) if sh['MODE'].strip().upper() != 'INS']
+            deficit = int(1.25 * sc['dur']) - base_secs
+            ai = 0
+            while deficit > 0 and elig:
+                j = elig[ai % len(elig)]
+                alt[j] += 1
+                deficit -= expand_secs(sc['shots'][j]['SEC'])[0]
+                ai += 1
+            ch['alts'] = ch.get('alts', 0) + sum(alt.values())
+            for idx, sh in enumerate(sc['shots']):
                 secs, n = expand_secs(sh['SEC'])
-                shot_secs += secs * n
                 sh_cast = re.findall(r'\b[A-Z][A-Z0-9]*_[A-Z0-9]+\b', sh['CAST'])
                 dna_parts, refs = [], []
                 for cid in sh_cast:
@@ -472,14 +493,28 @@ def cmd_compile(check_only=False):
                     cam = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['CAMERA'])
                     act = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['ACTION'])
                     prompt = (f"{style_master} LOCATION: {loc_dna} CAST: {' | '.join(dna_parts) if dna_parts else 'no characters'}. "
-                              f"SHOT: {cam}. ACTION: {act}.{speak} AUDIO: {sh['SOUND']}.").strip()
+                              f"SHOT: {cam}. ACTION: {act}.{speak}"
+                              + (f" AUDIO: {sh['SOUND']}." if sh['SOUND'].strip() not in ('', '—') else '')).strip()
                     prompts_md.append(f"**{clip_id}** · {secs}s · mode `{sh['MODE']}` · refs: {', '.join(refs) or '—'}"
                                       + (f" · line {lid}" if lid else ''))
                     prompts_md.append('```text\n' + prompt + f"\nAVOID: {neg_master}\n```")
                     shots_csv.append([clip_id, secs, sh['MODE'], ' '.join(refs), ' '.join(loc_ids), sh['CAMERA'],
                                       sh['ACTION'], lid or '', sh['SOUND'], prompt])
-            if sc['shots'] and (shot_secs < 0.8 * sc['dur'] or shot_secs > 3.0 * sc['dur'] + 30):
-                problems.append(f"{sc['id']}: generated {shot_secs}s for a {sc['dur']}s scene (target 1.0–3.0x)")
+                    shot_secs += secs
+                for a in range(alt[idx]):
+                    clip_id = f"{sc['id']}-{sh['SHOT']}.alt{a+1}"
+                    cam = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['CAMERA'])
+                    act = re.sub(r'\bSTY_[A-Z]+\b', lambda m: style.get(m.group(0), m.group(0)), sh['ACTION'])
+                    prompt = (f"{style_master} LOCATION: {loc_dna} CAST: {' | '.join(dna_parts) if dna_parts else 'no characters'}. "
+                              f"SHOT: {cam}. ACTION: {act}. ALT TAKE: same setup and composition; vary timing, "
+                              f"performance and micro camera movement for editorial choice.").strip()
+                    prompts_md.append(f"**{clip_id}** · {secs}s · mode `{sh['MODE']}` · refs: {', '.join(refs) or '—'} · auto-coverage")
+                    prompts_md.append('```text\n' + prompt + f"\nAVOID: {neg_master}\n```")
+                    shots_csv.append([clip_id, secs, sh['MODE'], ' '.join(refs), ' '.join(loc_ids), sh['CAMERA'],
+                                      sh['ACTION'], 'ALT', sh['SOUND'], prompt])
+                    shot_secs += secs
+            if sc['shots'] and shot_secs < 0.8 * sc['dur']:
+                problems.append(f"{sc['id']}: only {shot_secs}s generated for a {sc['dur']}s scene and no eligible setups for alt takes")
             for ln in sc['lines'].values():
                 if ln['vox'] != '—' and ln['vox'] not in vox:
                     problems.append(f"{sc['id']} {ln['id']}: unknown voice {ln['vox']}")
@@ -512,7 +547,7 @@ def cmd_compile(check_only=False):
         for ch in chapters:
             if ch['id']:
                 tot[ch['id'][:2]] += ch.get('runtime', 0)
-        out.append('| Part | Chapters | Runtime | Clips (8s/4s/6s gens) | VO characters (ElevenLabs) |')
+        out.append('| Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |')
         out.append('|---|---|---|---|---|')
         for p in PARTS:
             chs = [c for c in chapters if c['id'] and c['id'].startswith(p)]
@@ -522,7 +557,7 @@ def cmd_compile(check_only=False):
         for ch in chapters:
             if not ch['id']:
                 continue
-            out.append(f"\n## {ch['id']} · {ch['title']} — {ch['runtime']//60}:{ch['runtime']%60:02d} · {ch['clips']} clips\n")
+            out.append(f"\n## {ch['id']} · {ch['title']} — {ch['runtime']//60}:{ch['runtime']%60:02d} · {ch['clips']} clips ({ch.get('alts',0)} auto alt-takes)\n")
             out.append('| Scene | Heading | Dur | LOC | Cast | CE | Hook |')
             out.append('|---|---|---|---|---|---|---|')
             for r in index:
