@@ -2,7 +2,7 @@
 
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
-| भाग १ — प्रतिज्ञा और सभा | 2 | 47 min 00 s | 464 | 9,845 |
+| भाग १ — प्रतिज्ञा और सभा | 3 | 70 min 35 s | 700 | 12,426 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -46,6 +46,26 @@
 | P1C02S18 | EXT. RIVER STEPS — SATYAVATĪ LEAVES | 1:30 | LOC_GANGA_HASTINAPURA | VYA_B SVT_C AMK_A AML_A | 1.119.5–12 | Jisne yeh sab shuru kiya, woh ant dekhne se pehle chali jaati hai. |
 | P1C02S19 | EXT. HASTINAPURA PALACE ROOF — DUSK (CHAPTER HOOK) | 0:30 | LOC_HASTINAPURA_CITY | DUR_A YUD_A BHM_A ARJ_A NAK_A SAH_A | CREATIVE (sets up 1.119.14–27) | (chapter end) Ek baalak ki aankhon mein pehli baar nafrat. |
 
+## P1C03 · विष और अंगूठा — भाग १, अध्याय ३ (≈47:00 – 70:00) — 23:35 · 236 clips (134 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P1C03S01 | EXT. PALACE GROUNDS — DAYS (MONTAGE) | 1:15 | LOC_PALACE_GROUNDS | BHM_A DUR_A DUH_A YUD_A ARJ_A NAK_A SAH_A | 1.119.14–27 | Bhīma ke liye khel hai. Duryodhana ke liye yudh. |
+| P1C03S02 | EXT. PRAMĀṆAKOṬI, GAṄGĀ BANK — DAY → NIGHT | 1:45 | LOC_PRAMANAKOTI | BHM_A DUR_A DUH_A X_SERVANT | 1.119.29–34 | Ek daawat jo maut ka jaal hai. |
+| P1C03S03 | UNDERWATER / EXT. RIVERBANK — NIGHT — ELEVATION #2 | 1:15 | LOC_PRAMANAKOTI | BHM_A DUR_A | 1.119.34–35 (Nāgaloka is NOT CE — App. I.72–73) | Dil ki dhadkan dheemi hoti hai… phir aankhein khulti hain. |
+| P1C03S04 | EXT. PAVILION — ANOTHER NIGHT — THE COBRAS | 0:50 | LOC_PRAMANAKOTI | BHM_A CR_COBRA X_SERVANT | 1.119.36–38 |  |
+| P1C03S05 | INT. DINING HALL — DAY — KĀLAKŪṬA | 1:15 | LOC_PALACE_KITCHEN | BHM_A YUY_A YUD_A ARJ_A DUR_A VID_B KUN_C X_SERVANT | 1.119.39–43 | Zeher ki thaali — aur ek dushman ka bhai jo dost nikalta hai. |
+| P1C03S06 | EXT. PLAYING FIELD — THE BALL IN THE WELL | 1:45 | LOC_PALACE_GROUNDS | DRO_B YUD_A BHM_A ARJ_A DUR_A NAK_A SAH_A | 1.122.12–20 | Ek dubla-patla brāhmaṇ hansta hai — aur saare raajkumaar chup. |
+| P1C03S07 | INT. BHĪṢMA'S HALL — DROṆA'S STORY AND HIS PRICE | 2:00 | LOC_HASTINAPURA_COURT | DRO_B BHS_C DRO_A DRU_A DRU_B KPI_A ASW_A ARJ_B YUD_B BHM_B DUR_B | 1.121–1.122 (Aśvatthāman's cry 1.121.14; Drupada's insult 1.122.1–11, 38; the secret task 1.122.41–44) | Guru ek vachan maangta hai — sirf ek shishya haan kehta hai. |
+| P1C03S08 | EXT. DROṆA'S ĀŚRAMA — THE FOREST BOY | 1:30 | LOC_DRONA_ASHRAMA LOC_SAL_FOREST | EKL_A DRO_C | 1.123.10–14, 21 | Jise guru ne thukra diya, woh mitti ke guru se seekhta hai. |
+| P1C03S09 | EXT. SAL FOREST — THE DOG AND SEVEN ARROWS | 1:30 | LOC_SAL_FOREST | EKL_A ARJ_B YUD_B BHM_B DUR_B X_SERVANT | 1.123.15–25 | Ek kutta lautta hai — munh mein saat teer, khoon ki ek boond nahi. |
+| P1C03S10 | INT. DROṆA'S HUT — NIGHT — ARJUNA'S COMPLAINT | 1:00 | LOC_DRONA_ASHRAMA | ARJ_B DRO_C | 1.123.26–29 | Woh scene jo kisi TV version ne nahi dikhaya. |
+| P1C03S11 | EXT. EKALAVYA'S CLEARING — MORNING — THE THUMB | 2:00 | LOC_SAL_FOREST | EKL_A DRO_C ARJ_B | 1.123.30–39 | Woh muskurata hai — aur angootha kaat deta hai. Camera khoon par nahi, Arjuna ke chehre par. |
+| P1C03S12 | EXT. TRAINING GROUND — DAWN — THE BIRD | 2:15 | LOC_DRONA_ASHRAMA | DRO_C YUD_B DUR_B BHM_B ARJ_B X_CRAFTSMAN | 1.123.46–67 | "Tumhe kya dikhta hai?" — sabko sab kuchh. Ek ko sirf sir. |
+| P1C03S13 | EXT. GAṄGĀ SHALLOWS — THE CROCODILE | 1:00 | LOC_GANGA_SHALLOWS | DRO_C ARJ_B CR_CROCODILE | 1.123.68–77 |  |
+| P1C03S14 | EXT. TOURNAMENT ARENA — AFTERNOON — THE DISPLAY | 2:45 | LOC_RANGABHUMI | DHR_B GAN_B BHS_C KRP_A VID_B KUN_C DRO_C ASW_A BHM_B DUR_B ARJ_B YUD_B NAK_B SAH_B X_CITIZEN X_MUSICIAN | 1.124–1.125 (mace display stopped by Aśvatthāman 1.125.3–5; Droṇa's introduction 1.125.7; golden armour 1.125.9; iron boar and cow-horn 1.125.23–24) | Ek khel jo asli yudh banne wala tha. |
+| P1C03S15 | EXT. ARENA — THE ENTRY | 1:30 | LOC_RANGABHUMI | KRN_B DRO_C KRP_A ARJ_B DUR_B KUN_C X_CITIZEN | 1.126.1–9 | (chapter end) Bheed khud raasta deti hai. Ek parvat chal kar aata hai. Aur ek bhai apne anjaan bhai ko lalkaarta hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -56,4 +76,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 125 | 9,845 characters for TTS/STS |
+| Dialogue + narration lines | 171 | 12,426 characters for TTS/STS |
