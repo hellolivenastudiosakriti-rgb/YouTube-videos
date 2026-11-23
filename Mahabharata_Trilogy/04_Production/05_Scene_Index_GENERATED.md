@@ -2,7 +2,7 @@
 
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
-| भाग १ — प्रतिज्ञा और सभा | 4 | 94 min 40 s | 936 | 16,788 |
+| भाग १ — प्रतिज्ञा और सभा | 5 | 126 min 25 s | 1242 | 22,623 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -87,6 +87,30 @@
 | P1C04S15 | EXT. FOREST BEYOND THE MOAT — NIGHT — ELEVATION #4 "THE RUN" | 1:15 | LOC_FOREST_NIGHT | BHM_B KUN_C YUD_B ARJ_B NAK_B SAH_B | 1.136.15–19 |  |
 | P1C04S16 | EXT. FOREST CLEARING / INT. HASTINAPURA — DAWN | 1:30 | LOC_FOREST_NIGHT LOC_HASTINAPURA_COURT | YUD_B BHM_B KUN_C DHR_B VID_B DUR_C X_COURTIER | 1.137.1–2, 15–18 | (chapter end) Shahar sach maan leta hai. Vidura nahi. Aur jungle mein koi jaag raha hai. |
 
+## P1C05 · अग्निकन्या — भाग १, अध्याय ५ (≈98:00 – 125:00) — 31:45 · 306 clips (184 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P1C05S01 | EXT. FOREST — NIGHT — HIḌIMBA | 2:15 | LOC_FOREST_NIGHT | HDM_A HDB_A BHM_C KUN_C YUD_C ARJ_C NAK_C SAH_C | 1.139–1.142 (Hiḍimba's look 1.139.2–3, 1.140.2) | Bhai bhookha hai, bahan premi ho jaati hai. |
+| P1C05S02 | EXT. FOREST — DAWN — HIḌIMBĀ'S PLEA | 1:15 | LOC_FOREST_NIGHT | HDB_A YUD_C BHM_C KUN_C | 1.143.1–19 |  |
+| P1C05S03 | EXT. MOUNTAIN LAKE — GHAṬOTKACA | 1:15 | LOC_FOREST_NIGHT | GHT_A HDB_A BHM_C KUN_C YUD_C | 1.143.26–38 | Ek bachcha jo usi din jawan ho gaya — aur jise Indra ne kisi aur ki maut ke liye racha tha. |
+| P1C05S04 | INT. BRAHMIN'S HOUSE, EKACAKRĀ — THE TURN | 1:45 | LOC_EKACHAKRA | EKB_A EKW_A EKD_A KUN_C BHM_C | 1.145–1.150 | Ek ghar jismein har koi doosre ke badle marna chahta hai. |
+| P1C05S05 | EXT. BAKA'S FOREST — DAY — THE MEAL | 1:45 | LOC_EKACHAKRA | BHM_C BAK_A X_CITIZEN | 1.151.1–25 | Comedy se horror ek cut mein. |
+| P1C05S06 | INT. BRAHMIN'S HOUSE / DRUPADA'S ALTAR — THE TALE | 2:45 | LOC_EKACHAKRA LOC_DRUPADA_ALTAR | X_BRAHMIN YUD_C BHM_C ARJ_C NAK_C SAH_C KUN_C DRU_B YAJ_A UPY_A DHD_A DRP_A VYA_B | 1.153–1.157 (sky-voice for Dhṛṣṭadyumna 1.155.40; Draupadī 1.155.41–45; Kuntī's proposal 1.156.2–8; Vyāsa tells the five-times boon 1.157.1–16) | Aag se do bachche — ek Droṇa ki maut ke liye, ek kshatriyon ke vinaash ke liye. |
+| P1C05S07 | EXT. GAṄGĀ — NIGHT — AṄGĀRAPARṆA | 1:00 | LOC_GANGA_NIGHT | ANG_A KMB_A ARJ_C YUD_C DHM_A | 1.158–1.174 (priest Dhaumya chosen 1.174) |  |
+| P1C05S08 | EXT. KĀMPILYA ARENA — DAY — THE SVAYAṀVARA | 2:00 | LOC_SVAYAMVARA_ARENA | DHD_A DRP_A DRU_B KRS_A BAL_A KRN_B SHL_A YUD_C BHM_C ARJ_C NAK_C SAH_C X_KING X_BRAHMIN | 1.176–1.178 (target 1.176.10–11, 34; recognition 1.178.8–10; kings fail 1.178.15–17) | Bheed mein ek saanwla purush paanch "brāhmaṇon" ko pehchaan leta hai. |
+| P1C05S09 | EXT. ARENA — THE BRAHMIN — ELEVATION #5 | 2:00 | LOC_SVAYAMVARA_ARENA | ARJ_C BRO_A BRY_A DRP_A YUD_C NAK_C SAH_C X_BRAHMIN X_KING | 1.179.1–22 (NOT CE: Karṇa stringing the bow; Draupadī rejecting a sūta, *1827) |  |
+| P1C05S10 | EXT. ARENA YARD — THE KINGS' BRAWL | 2:00 | LOC_SVAYAMVARA_ARENA | KRN_B ARJ_C SHL_A BHM_C KRS_A X_KING X_BRAHMIN | 1.180–1.181 | Do bhai pehli baar aamne-saamne — aur ek doosre ko nahi pehchante. |
+| P1C05S11 | INT. POTTER'S HUT — NIGHT | 0:45 | LOC_POTTER_HUT | BHM_C ARJ_C KUN_C DRP_A | 1.182.1–3 |  |
+| P1C05S12 | MONTAGE — KṚṢṆA'S VISIT, THE SPY, VYĀSA, FIVE WEDDINGS | 2:15 | LOC_POTTER_HUT LOC_KAMPILYA | KRS_A BAL_A YUD_C DHD_A DRU_B VYA_B DRP_A ARJ_D BHM_D NAK_D SAH_D YUD_D DHM_A | 1.183–1.191 (five-times boon repeated by Vyāsa 1.189.46) |  |
+| P1C05S13 | EXT. KHĀṆḌAVAPRASTHA — INDRAPRASTHA RISES | 1:15 | LOC_KHANDAVAPRASTHA | YUD_D BHM_D ARJ_D NAK_D SAH_D DRP_B KRS_A X_CRAFTSMAN | 1.192–1.199 |  |
+| P1C05S14 | INT. PĀṆḌAVA HALL — NIGHT — THE RULE (SHADOW PLAY) | 1:15 | LOC_INDRAPRASTHA_HALL | NRD_A YUD_D BHM_D ARJ_D NAK_D SAH_D DRP_B | 1.200–1.204 (the rule 1.204.27–29) |  |
+| P1C05S15 | EXT./INT. ARMOURY — NIGHT — ARJUNA'S CHOICE | 1:30 | LOC_INDRAPRASTHA_HALL | BRB_A ARJ_D YUD_D DRP_B | 1.205 | Ek brāhmaṇ ki gaayein — ya barah saal ka vanvaas? |
+| P1C05S16 | MONTAGE — "बारह वर्ष" — ULŪPĪ, CITRĀṄGADĀ, THE FORDS | 2:00 | LOC_GANGA_NIGHT LOC_NAGA_PALACE LOC_MANALURA LOC_TIRTHA_FORDS LOC_PRABHASA | ARJ_D ULP_A KRV_A CTV_A CTR_A VRG_A KRS_A CR_CROCODILE | 1.206–1.210 (Citrāṅgadā's bride-price 1.207.21–22; NOT CE: Ulūpī's water-boon *2029) |  |
+| P1C05S17 | EXT. RAIVATAKA HILL — FESTIVAL — THE ABDUCTION | 2:00 | LOC_RAIVATAKA | SUB_A ARJ_D KRS_A X_YADAVA | 1.211.1–24; 1.212.1–8 (Kṛṣṇa's advice 1.211.21–23; Arjuna drives himself 1.212.7–8; NOT CE: Subhadrā driving, App. I.115) |  |
+| P1C05S18 | INT. SUDHARMĀ HALL, DVĀRAKĀ — BALARĀMA'S FURY | 1:45 | LOC_DVARAKA_SUDHARMA | BAL_A KRS_A X_YADAVA | 1.212.9–31; 1.213.1–10 | Ek bhai jo poori prithvi Kauravon se khaali karna chahta hai — aur doosra jo muskurata hai. |
+| P1C05S19 | BIRTHS — AND A GUEST (CHAPTER HOOK) | 1:00 | LOC_INDRAPRASTHA_HALL LOC_YAMUNA_GROVE | SUB_A DRP_B X_NEWBORN KRS_A ARJ_D AGN_A | 1.213.55–75 (Abhimanyu; Draupadī's sons — names 1.57.102); 1.214 | (chapter end) Garmi ki dopahar, do mitra — aur ek brāhmaṇ jiski tvacha garmi ki lehron jaisi kaanpti hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -97,4 +121,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 221 | 16,788 characters for TTS/STS |
+| Dialogue + narration lines | 288 | 22,623 characters for TTS/STS |

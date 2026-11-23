@@ -57,7 +57,7 @@
 ---
 ## 6. QC GATES — drift checklist
 **QC-A (har still / keyframe):**
-- [ ] Chehra sheet se match: face shape, nose, eyes, brow, beard pattern, skin tone (Bhīma–Yudhiṣṭhira gaur, Arjuna–Kṛṣṇa–Draupadī saanwle — CE 15.32 / 1.155.42 / 6.102.57)
+- [ ] Chehra sheet se match: face shape, nose, eyes, brow, beard pattern, skin tone (Yudhiṣṭhira gaur 15.32.5; Bhīma dhoop-tapa sunehra — CE mein 15.32.6 'gaur' aur 1.139.14 'śyāma' dono; Arjuna–Kṛṣṇa–Draupadī saanwle — 15.32.7 / 6.102.57 / 1.155.42)
 - [ ] Umar sahi LOOK ki (BOY / YOUTH / PRINCE / EXILE / WAR / OLD)
 - [ ] Poshak, gehne, hathiyaar, dhvaj, shankh bible ke hisaab se
 - [ ] **Never list** follow hui: Kṛṣṇa ke paas mor-pankh nahi · Gāndhārī ki patti kabhi nahi hatti · Śakuni langdata nahi · shankh asli seashell · chariot ke pahiye spoked · Karṇa ka kavach P2C05 tak, uske baad kabhi nahi · Draupadī ke baal Sabhā ke baad khule · Aśvatthāman ki mani P3C07 tak, phir ghaav
