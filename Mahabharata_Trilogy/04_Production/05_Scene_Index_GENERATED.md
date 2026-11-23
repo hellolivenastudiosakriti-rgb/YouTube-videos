@@ -2,7 +2,7 @@
 
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
-| भाग १ — प्रतिज्ञा और सभा | 6 | 151 min 50 s | 1493 | 26,533 |
+| भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -129,6 +129,23 @@
 | P1C06S12 | EXT. ROAD / INT. DHṚTARĀṢṬRA'S CHAMBER — THE LIE | 3:00 | LOC_HASTINAPURA_ROAD LOC_HASTINAPURA_CHAMBERS | DUR_C SHK_B DHR_B VID_B | 2.43.13–2.51 (Duryodhana's lie 2.46.27–31; Śakuni 2.44–2.45, 2.45.40) | Ek beta jo pita se jhooth bolta hai — aur ek mama jo sach jaanta hai, par chup rehta hai. |
 | P1C06S13 | INT. INDRAPRASTHA — NIGHT — THE INVITATION | 1:30 | LOC_INDRAPRASTHA_HALL | VID_B YUD_D BHM_D ARJ_D DRP_B | 2.52.11–16 | (chapter end) "Main lalkaar se kabhi peechhe nahi hat-ta" — aur ek maut ka nagaada. |
 
+## P1C07 · द्यूत — भाग १, अध्याय ७ (≈151:00 – 172:00) · PART I CLIMAX — 28:45 · 292 clips (156 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P1C07S01 | INT. GAMING HALL, HASTINAPURA — DAY — "जितम्" | 3:45 | LOC_DYUTA_SABHA | YUD_D SHK_B DUR_C KRN_C BHS_C DRO_C KRP_A VID_B DHR_B BHM_D ARJ_D NAK_D SAH_D X_KING | 2.53–2.58 (city, land and people 2.58.7; Nakula 2.58.11; Sahadeva 2.58.14; the taunt 2.58.16–17; "like a boat" Arjuna 2.58.20; Bhīma 2.58.24; himself 2.58.26; Draupadī 2.58.31–37; "kiṁ jitam?" 2.58.41) | Har cut chhota, har "jitam" mic ke zyada kareeb — aur andha raja khushi chhupa nahi paata. |
+| P1C07S02 | INT. WOMEN'S QUARTERS — "पहले किसे हारा?" | 1:45 | LOC_WOMENS_QUARTERS LOC_DYUTA_SABHA | PRK_A DRP_C YUD_D DUR_C X_MAID | 2.60.1–10 | Ek sevak jo sher ki maand mein kutte ki tarah ghusta hai — aur ek prashn lekar lautta hai. |
+| P1C07S03 | INT. CORRIDOR → HALL — THE DRAGGING | 1:15 | LOC_WOMENS_QUARTERS LOC_DYUTA_SABHA | DUH_B DRP_C DRP_B | 2.60.20–27 (hair once sprinkled at the Rājasūya 2.60.23) | Usne kisi ko pukaara nahi. (17.6 mein yaad rakhna.) |
+| P1C07S04 | INT. HALL — THE QUESTION BEFORE THE ELDERS | 3:00 | LOC_DYUTA_SABHA | DRP_C DUH_B KRN_C SHK_B BHS_C YUD_D BHM_D ARJ_D NAK_D SAH_D DRO_C KRP_A X_KING | 2.60.28–47 | Woh dheere bolti hai — sabha ko jhukna padta hai sunne ke liye. |
+| P1C07S05 | INT. HALL — BROTHERS, AND ONE KAURAVA | 3:00 | LOC_DYUTA_SABHA | BHM_D ARJ_D SAH_D VIK_A KRN_C DUH_B YUD_D NAK_D X_KING | 2.61.1–39 | Ek Kaurava khada hota hai — aur Karṇa woh kehta hai jo use hamesha ke liye daagdaar kar dega. |
+| P1C07S06 | INT. HALL — THE MIRACLE — ABSOLUTE SILENCE | 2:30 | LOC_DYUTA_SABHA | DUH_B DRP_C BHM_D X_KING | 2.61.40–50 (NOT CE: Draupadī's prayer *542–*550; "Dharma's coloured cloths" *553; "108 cloths" *552; light beams, Kṛṣṇa's image) | Usne kisi ko nahi pukaara. CE koi kaaran nahi deta — khaamoshi hi kaaran hai. |
+| P1C07S07 | INT. HALL — THE THIGH | 1:45 | LOC_DYUTA_SABHA | DUR_C KRN_C DRP_C BHM_D VID_B ARJ_D YUD_D | 2.63.8–21 |  |
+| P1C07S08 | INT. HALL — THE JACKAL AND THE BOONS | 2:45 | LOC_DYUTA_SABHA | DHR_B DRP_C GAN_B VID_B BHS_C DRO_C KRP_A DUR_C YUD_D | 2.63.22–36 | Teesra var lene se inkaar — Part I ki sabse thandi, sabse garvili line. |
+| P1C07S09 | EXT. ROAD / INT. HALL — NIGHT — ANUDYŪTA | 1:45 | LOC_HASTINAPURA_ROAD LOC_DYUTA_SABHA | PRK_A YUD_D SHK_B DUR_C BHM_D ARJ_D | 2.66–2.67 (terms 2.66.18–19; 2.67.2–4, 21) | Ghar ka raasta aadha taya — aur ek sawaar peeche se aata hai. |
+| P1C07S10 | INT. HALL — THE FOUR VOWS — ELEVATION #8 | 2:30 | LOC_DYUTA_SABHA | BHM_E ARJ_E SAH_E NAK_E YUD_E DUH_B SHK_B DUR_C KRN_C | 2.68 (deerskins 2.68.1; Duḥśāsana dances 2.68.2; vows 2.68.21–45) | Chaar 85mm close-ups — chaar pratigyaein — Part III mein chaaron poori hongi. |
+| P1C07S11 | EXT. HASTINAPURA STREETS — PRE-DAWN — THE DEPARTURE | 3:00 | LOC_HASTINAPURA_CITY LOC_VIDURA_HOUSE LOC_DYUTA_SABHA | KUN_D VID_B YUD_E BHM_E ARJ_E SAH_E NAK_E DRP_D DHM_A NRD_A X_CITIZEN X_RISHI | 2.69–2.71 (Vidura's description 2.71.3–22; Draupadī's prophecy 2.71.18–20; omens 2.71.25–28; Nārada 2.71.29–30) | Woh vidaai jo kisi film ne nahi dikhayi. |
+| P1C07S12 | INT. EMPTY HALL — NIGHT — "काल उलटा दिखाता है" | 1:45 | LOC_HASTINAPURA_CHAMBERS | DHR_B SNJ_A | 2.72.3–18 | (chapter end) Deepak bujhta hai. Andhera. Teraah saal door se ek shankh. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -139,4 +156,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 128 | — |
-| Dialogue + narration lines | 341 | 26,533 characters for TTS/STS |
+| Dialogue + narration lines | 426 | 33,680 characters for TTS/STS |
