@@ -3,7 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
-| भाग २ — वन और शंख | 4 | 81 min 50 s | 791 | 10,245 |
+| भाग २ — वन और शंख | 5 | 99 min 20 s | 962 | 13,083 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -209,6 +209,19 @@
 | P2C04S12 | EXT. FOREST — FIVE TUFTS | 1:45 | LOC_KAMYAKA | BHM_E JYD_A YUD_E DRP_D ARJ_F | 3.255–3.256.21 (five tufts 3.256.9; "say you are a slave" 3.256.11; release 3.256.16–21) |  |
 | P2C04S13 | EXT. HIMĀLAYA — ŚIVA'S BOON (CHAPTER HOOK) | 1:30 | LOC_HIMALAYA | JYD_A SHV_B | 3.256.25–29 (no "one day" in CE here — the boon is to hold back the Pāṇḍavas, except Arjuna, who is protected by Kṛṣṇa) | (chapter end) Yeh vardaan Part III mein chakravyūha ke dwaar par khulega. |
 
+## P2C05 · कवच और यक्ष — भाग २, अध्याय ५ (≈94:00 – 112:00) — 17:30 · 171 clips (108 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C05S01 | INT. KARṆA'S CHAMBER — NIGHT — THE DREAM | 2:00 | LOC_HASTINAPURA_CHAMBERS | KRN_C SUR_A | 3.284–3.286 (warning 3.284.6–15) | Pita beta ko bachana chahta hai. Beta apne yash ko. |
+| P2C05S02 | EXT. RIVER — NOON — THE ARMOUR — ELEVATION #3 | 3:30 | LOC_GANGA_HASTINAPURA | KRN_C IND_C KRN_D | 3.294.1–40 (bargain 3.294.26–34; the cutting 3.294.35–38; Indra laughs 3.294.39) | Woh muskurata hai — baar-baar — jab sona chamdi se alag hota hai. |
+| P2C05S03 | EXT. KĀMYAKA / PĀṆḌAVA HUTS — THE NEWS | 0:45 | LOC_KAMYAKA LOC_HASTINAPURA_COURT | YUD_E BHM_E ARJ_F DUR_D SHK_B | 3.294.40 |  |
+| P2C05S04 | EXT. FOREST — THE DEER AND THE FIRE-STICKS | 1:15 | LOC_KAMYAKA | BRA_A YUD_E BHM_E ARJ_F NAK_E SAH_E | 3.295 |  |
+| P2C05S05 | EXT. THE STILL LAKE — FOUR BROTHERS | 2:30 | LOC_YAKSHA_LAKE | NAK_E SAH_E ARJ_F BHM_E CR_CRANE | 3.296 | Horror staging — ek awaaz jo kahin se nahi aati. |
+| P2C05S06 | EXT. THE STILL LAKE — YUDHIṢṬHIRA AND THE YAKṢA — SUSPENSE PEAK | 4:00 | LOC_YAKSHA_LAKE | YUD_E DHA_A DHA_B NAK_E SAH_E ARJ_F BHM_E CR_CRANE | 3.297–3.298 (the Yakṣa's form 3.297.20; questions 3.297.40–57; the choice 3.297.66–74; boon 3.298.15–18) | Ek bhai ko zinda karne ka vikalp — aur woh sabse kam taakatwar ko chunta hai. |
+| P2C05S07 | EXT. CREMATION GROUND OUTSIDE MATSYA — DUSK — THE ŚAMĪ TREE | 1:30 | LOC_SHAMI_CREMATION | YUD_E BHM_E ARJ_E NAK_E SAH_E DRP_D CR_JACKAL | 4.5 |  |
+| P2C05S08 | INT. VIRĀṬA'S COURT — DAYS — THE DISGUISES (MONTAGE) | 2:00 | LOC_VIRATA_COURT LOC_VIRATA_PALACE | YUD_F BHM_F ARJ_G NAK_F SAH_F DRP_E VRT_A SDS_A KCK_A | 4.1–4.13 (Kaṅka's dice 4.6.1; Bṛhannaḍā 4.2.21–24; Sairandhrī 4.8; NOT CE: hymn to Durgā App. I.4, Urvaśī's curse App. I.6) | (chapter end) Rani ka bhai — Kīcaka — Sairandhrī ko dekhta hai. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -219,4 +232,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 129 | — |
-| Dialogue + narration lines | 556 | 43,925 characters for TTS/STS |
+| Dialogue + narration lines | 594 | 46,763 characters for TTS/STS |
