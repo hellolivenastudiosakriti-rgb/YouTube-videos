@@ -3,7 +3,7 @@
 | Part | Chapters | Runtime | Clips to generate (incl. auto alt-takes) | VO characters (ElevenLabs) |
 |---|---|---|---|---|
 | भाग १ — प्रतिज्ञा और सभा | 7 | 180 min 35 s | 1785 | 33,680 |
-| भाग २ — वन और शंख | 3 | 56 min 15 s | 547 | 7,093 |
+| भाग २ — वन और शंख | 4 | 81 min 50 s | 791 | 10,245 |
 
 ## P1C01 · शंखनाद — भाग १, अध्याय १ (0:00 – 24:00) — 21:05 · 212 clips (47 auto alt-takes)
 
@@ -191,6 +191,24 @@
 | P2C03S09 | EXT. BANANA GROVE — THE FORM | 1:45 | LOC_GANDHAMADANA | HAN_A BHM_E | 3.149–3.150 (promise 3.150.15) | (chapter promise) Yeh vachan Part III mein Arjuna ke rath ke jalne tak nibhaaya jayega. |
 | P2C03S10 | EXT. KUBERA'S LAKE / FOREST — LOTUSES AND A FALSE BRAHMIN | 2:00 | LOC_GANDHAMADANA LOC_FOREST_NIGHT | BHM_E JTS_A YUD_E NAK_E SAH_E DRP_D | 3.151–3.152; 3.154 | (chapter end) Jo brāhmaṇ unke saath reh raha tha, woh rākṣas nikla. |
 
+## P2C04 · अजगर, गंधर्व, जयद्रथ — भाग २, अध्याय ४ (≈68:00 – 94:00) — 25:35 · 244 clips (167 auto alt-takes)
+
+| Scene | Heading | Dur | LOC | Cast | CE | Hook |
+|---|---|---|---|---|---|---|
+| P2C04S01 | EXT. MOUNTAIN TOP — DAWN — ARJUNA RETURNS | 1:45 | LOC_GANDHAMADANA | ARJ_F MTL_A YUD_E BHM_E NAK_E SAH_E DRP_D DHM_A | 3.161–3.164 | Paanch saal baad — sone jaisa chamakta, sir par Indra ka kirīṭa. |
+| P2C04S02 | FLASHBACK — THE OCEAN FORTRESS AND THE SKY CITY | 2:45 | LOC_NIVATAKAVACHA | ARJ_F MTL_A X_DANAVA | 3.165–3.172 |  |
+| P2C04S03 | EXT. MOUNTAIN CAVE — THE PYTHON | 2:30 | LOC_PYTHON_CAVE | BHM_E YUD_E NAH_A CR_PYTHON | 3.175–3.178 (the python's look 3.175.12–16; "who is a brahmin" 3.177.16) | Duniya ka sabse balwaan aadmi hil bhi nahi paata. |
+| P2C04S04 | INT. HASTINAPURA — THE GHOṢAYĀTRĀ PLAN | 1:15 | LOC_HASTINAPURA_CHAMBERS | KRN_C SHK_B DUR_D DHR_C | 3.226–3.228 | "Unhe phate valkalon mein dekhenge — aur tum raajsi vaibhav mein." |
+| P2C04S05 | EXT. DVAITAVANA LAKE — THE GANDHARVAS | 2:30 | LOC_DVAITAVANA | CTS_A DUR_D KRN_C DUH_B X_MAID | 3.229–3.231 (Karṇa escapes on Vikarṇa's chariot 3.230.31) |  |
+| P2C04S06 | EXT. PĀṆḌAVA HUTS — "BAAHARI HAATH" | 2:00 | LOC_DVAITAVANA | BHM_E YUD_E ARJ_F NAK_E SAH_E | 3.231–3.233 (Yudhiṣṭhira 3.232.1–11; NOT CE: "vayaṁ pañcottaraṁ śatam" *1119/*1122) | Dushman ka bhai daudta aata hai — aur Yudhiṣṭhira woh kehte hain jo koi aur nahi kehta. |
+| P2C04S07 | EXT. DVAITAVANA — ARJUNA VS CITRASENA — "GURU!" | 1:30 | LOC_DVAITAVANA | ARJ_F CTS_A DUR_D YUD_E | 3.234–3.235 |  |
+| P2C04S08 | EXT. ROADSIDE CAMP — NIGHT — THE FAST | 2:15 | LOC_ROADSIDE_CAMP LOC_UNDERWORLD | DUR_D KRN_C SHK_B DUH_B X_DANAVA | 3.236–3.240 (fast 3.238; Dānavas 3.239–3.240; Karṇa's oath 3.240.38) | Jise Pāṇḍavon ne bachaya, woh mar jaana chahta hai. Paatal use phir se jeene ki wajah deta hai. |
+| P2C04S09 | EXT. HASTINAPURA — THE VAIṢṆAVA SACRIFICE | 0:50 | LOC_HASTINAPURA_CITY | DUR_D X_BRAHMIN | 3.241–3.243 |  |
+| P2C04S10 | EXT. KĀMYAKA HERMITAGE — JAYADRATHA | 2:45 | LOC_KAMYAKA | JYD_A DRP_D DHM_A | 3.248–3.252 | Shishtaachaar → vaasna → zabardasti. |
+| P2C04S11 | EXT. FOREST — THE CHASE — "VOH DHARMARAJ HAIN…" | 2:15 | LOC_KAMYAKA | YUD_E BHM_E ARJ_F NAK_E SAH_E JYD_A DRP_D | 3.253–3.255 (Draupadī names each Pāṇḍava to her captor 3.254) | Ek bandi jo apne apaharan-karta ko apne patiyon ka parichay deti hai — barf ki thandi tasalli se. |
+| P2C04S12 | EXT. FOREST — FIVE TUFTS | 1:45 | LOC_KAMYAKA | BHM_E JYD_A YUD_E DRP_D ARJ_F | 3.255–3.256.21 (five tufts 3.256.9; "say you are a slave" 3.256.11; release 3.256.16–21) |  |
+| P2C04S13 | EXT. HIMĀLAYA — ŚIVA'S BOON (CHAPTER HOOK) | 1:30 | LOC_HIMALAYA | JYD_A SHV_B | 3.256.25–29 (no "one day" in CE here — the boon is to hold back the Pāṇḍavas, except Arjuna, who is protected by Kṛṣṇa) | (chapter end) Yeh vardaan Part III mein chakravyūha ke dwaar par khulega. |
+
 ## Audio totals (from 03_Audio_Bible.md + scripts)
 
 | Item | Count | Minutes |
@@ -201,4 +219,4 @@
 | THEME-FLOW | 17 | 46:00 |
 | ElevenLabs SFX defined (of which seamless loops) | 136 (45) | — |
 | Voices defined (VOX) | 129 | — |
-| Dialogue + narration lines | 513 | 40,773 characters for TTS/STS |
+| Dialogue + narration lines | 556 | 43,925 characters for TTS/STS |
